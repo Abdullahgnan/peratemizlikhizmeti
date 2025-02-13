@@ -6,12 +6,17 @@ import { Check } from "lucide-react"
 
 export default function EvTemizligiPage() {
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4">
+      {/* Boş Alan */}
+      <div className="h-20" /> {/* Header'dan sonra daha az boşluk */}
+      
       {/* Fiyat Hesaplama Bölümü */}
-      <PriceCalculator />
+      <div className="py-12"> {/* Padding'i azalttık */}
+        <PriceCalculator />
+      </div>
 
       {/* Ev Temizliği Hakkında Bilgiler */}
-      <section className="mt-16 space-y-12">
+      <section className="space-y-12">
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-2xl font-bold mb-4">Ev Temizliği Hizmetimiz</h2>
@@ -80,4 +85,4 @@ export default function EvTemizligiPage() {
       </section>
     </main>
   )
-}
+} 

@@ -1,8 +1,7 @@
 import * as React from "react"
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
-import { Instagram, Facebook, Twitter } from "lucide-react"
+import { Instagram } from "lucide-react"
 
 export function SiteHeader() {
   return (
@@ -29,9 +28,8 @@ export function SiteHeader() {
             <span className="text-xl font-bold text-white">PeraHizmet</span>
           </Link>
           
-          {/* Navigation ve Sosyal Medya */}
+          {/* Navigation ve Instagram */}
           <div className="flex items-center gap-6">
-            {/* Navigation */}
             <nav aria-label="Ana Menü" className="hidden md:flex items-center gap-6">
               {[
                 { href: "/hizmetler/ev-temizligi", label: "Ev Temizliği" },
@@ -53,50 +51,18 @@ export function SiteHeader() {
               ))}
             </nav>
 
-            {/* CTA Button */}
-            <Button asChild className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 
-              hover:to-emerald-700 text-white px-6 py-5 rounded-full shadow-lg hover:shadow-xl 
-              transform hover:-translate-y-0.5 transition-all duration-300 font-semibold
-              border border-emerald-400/20 hover:border-emerald-400/40">
-              <Link href="/hizmetler/ev-temizligi">Teklif Al</Link>
-            </Button>
-
-            {/* Sosyal Medya İkonları */}
-            <div className="flex items-center gap-4 ml-5">
-              <a
-                href="https://instagram.com/peratemizlikk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative z-50 bg-gradient-to-br from-[#FF3880] to-[#C13584] text-white 
-                  hover:scale-110 transition-all duration-300 p-2.5 rounded-full 
-                  hover:shadow-lg hover:shadow-[#C13584]/30 cursor-pointer"
-                aria-label="Instagram'da Bizi Takip Edin"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://facebook.com/peratemizlikk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative z-50 bg-gradient-to-br from-[#1877F2] to-[#166BDA] text-white 
-                  hover:scale-110 transition-all duration-300 p-2.5 rounded-full 
-                  hover:shadow-lg hover:shadow-[#1877F2]/30 cursor-pointer"
-                aria-label="Facebook'ta Bizi Takip Edin"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com/peratemizlikk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative z-50 bg-gradient-to-br from-[#1DA1F2] to-[#19A1F7] text-white 
-                  hover:scale-110 transition-all duration-300 p-2.5 rounded-full 
-                  hover:shadow-lg hover:shadow-[#1DA1F2]/30 cursor-pointer"
-                aria-label="Twitter'da Bizi Takip Edin"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-            </div>
+            {/* Instagram İkonu */}
+            <a
+              href="https://instagram.com/peratemizlikk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative z-50 bg-white text-black
+                hover:scale-110 transition-all duration-300 p-1.5 rounded-full 
+                hover:shadow-lg hover:shadow-white/30 cursor-pointer"
+              aria-label="Instagram'da Bizi Takip Edin"
+            >
+              <Instagram className="w-3 h-3" />
+            </a>
           </div>
         </div>
       </div>

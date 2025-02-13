@@ -124,11 +124,9 @@ export function PriceCalculator() {
   }
 
   return (
-    <div className="w-[60%] mx-auto mt-20">
-      <h1 className="text-2xl font-bold mb-2 text-gray-800">İstanbul Ev Temizliği Fiyatları</h1>
-      <p className="text-gray-500 mb-4">(Tarihe Göre Değişir)</p>
-      
-      <div className="grid grid-cols-6 gap-3 mb-6">
+    <div className="max-w-4xl mx-auto">
+      {/* Fiyat Kartları */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {hourlyPrices.map((item) => (
           <div
             key={item.hours}
@@ -158,197 +156,199 @@ export function PriceCalculator() {
       </div>
 
       {/* Detaylar - Açılır/Kapanır Panel */}
-      <div className="border-t border-gray-200">
-        <button
-          onClick={() => setIsDetailsOpen(!isDetailsOpen)}
-          className="w-full py-4 px-6 flex items-center justify-between 
-            bg-gradient-to-r from-blue-500 to-blue-600 text-white
-            hover:from-blue-600 hover:to-blue-700 
-            transition-all duration-300 shadow-md hover:shadow-lg
-            group"
-        >
-          <div className="flex items-center gap-2">
-            <span className="font-semibold text-base">
-              Detaylar ve Ek Hizmetler
-            </span>
-            <span className="text-sm text-blue-100">
-              (Adres, İndirimler ve Ek Hizmetler)
-            </span>
-          </div>
-          <div className="flex items-center gap-2 text-blue-100 group-hover:text-white transition-colors">
-            <span className="text-sm">
-              {isDetailsOpen ? 'Gizle' : 'Göster'}
-            </span>
-            {isDetailsOpen ? 
-              <ChevronUp className="w-5 h-5 animate-bounce" /> : 
-              <ChevronDown className="w-5 h-5 animate-bounce" />
-            }
-          </div>
-        </button>
-
-        {isDetailsOpen && (
-          <div className="p-4 space-y-4 bg-gray-50 border-t border-blue-100">
-            {/* Şehir ve İlçe Seçimi */}
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="animate-slide-in" style={{ animationDelay: '100ms' }}>
-                <label className="block text-sm font-medium mb-2 text-gray-600">Şehir</label>
-                <Select value={city} onValueChange={setCity}>
-                  <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
-                    <SelectValue placeholder="Şehir seçin" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="İstanbul">İstanbul</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className="animate-slide-in" style={{ animationDelay: '200ms' }}>
-                <label className="block text-sm font-medium mb-2 text-gray-600">İlçe</label>
-                <Select value={district} onValueChange={setDistrict}>
-                  <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
-                    <SelectValue placeholder="İlçe seçin" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="Ataşehir (Batı)">Ataşehir (Batı)</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
+      <div className="mt-8">
+        <div className="border-t border-gray-200">
+          <button
+            onClick={() => setIsDetailsOpen(!isDetailsOpen)}
+            className="w-full py-4 px-6 flex items-center justify-between 
+              bg-gradient-to-r from-blue-500 to-blue-600 text-white
+              hover:from-blue-600 hover:to-blue-700 
+              transition-all duration-300 shadow-md hover:shadow-lg
+              group"
+          >
+            <div className="flex items-center gap-2">
+              <span className="font-semibold text-base">
+                Detaylar ve Ek Hizmetler
+              </span>
+              <span className="text-sm text-blue-100">
+                (Adres, İndirimler ve Ek Hizmetler)
+              </span>
             </div>
-
-            {/* Sıklık Seçimi */}
-            <div className="animate-slide-in" style={{ animationDelay: '400ms' }}>
-              <label className="block text-sm font-medium mb-2 text-gray-600">
-                Hangi Sıklıkla Temizlensin:
-              </label>
-              <div className="flex gap-3">
-                {[
-                  { id: "single", label: "TEK SEFERLİK", discount: null },
-                  { id: "weekly", label: "HAFTALIK", discount: 15 },
-                  { id: "monthly", label: "AYLIK", discount: 25 }
-                ].map((option) => (
-                  <Button
-                    key={option.id}
-                    variant={frequency === option.id ? "default" : "outline"}
-                    onClick={() => setFrequency(option.id as FrequencyType)}
-                    className={`flex-1 h-14 relative overflow-hidden transition-all duration-300 ${
-                      frequency === option.id ? "shadow-lg scale-105" : ""
-                    }`}
-                  >
-                    <div>
-                      <div>{option.label}</div>
-                      {option.discount && (
-                        <div className="text-xs opacity-75 mt-1">
-                          %{option.discount} İndirim
-                        </div>
-                      )}
-                    </div>
-                  </Button>
-                ))}
-              </div>
+            <div className="flex items-center gap-2 text-blue-100 group-hover:text-white transition-colors">
+              <span className="text-sm">
+                {isDetailsOpen ? 'Gizle' : 'Göster'}
+              </span>
+              {isDetailsOpen ? 
+                <ChevronUp className="w-5 h-5 animate-bounce" /> : 
+                <ChevronDown className="w-5 h-5 animate-bounce" />
+              }
             </div>
+          </button>
 
-            {/* Ek Hizmetler - Açılır/Kapanır */}
-            <div>
-              <button
-                onClick={() => setSelectedExtras([])}
-                className="w-full p-4 flex items-center justify-between bg-white rounded-lg shadow-sm"
-              >
-                <span className="font-medium">Ek Hizmetler</span>
-                {selectedExtras.length > 0 ? <ChevronUp /> : <ChevronDown />}
-              </button>
-              
-              {selectedExtras.length > 0 && (
-                <div className="mt-2 space-y-2">
-                  {extraServices.map((service) => (
-                    <div key={service.id} 
-                      className="flex items-center space-x-2 p-2 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
-                      <Checkbox
-                        id={service.id}
-                        checked={selectedExtras.includes(service.id)}
-                        onCheckedChange={(checked) => handleCheckboxChange(checked as boolean, service.id)}
-                        className="border-2"
-                      />
-                      <label htmlFor={service.id} className="flex justify-between w-full text-sm cursor-pointer">
-                        <span className="font-medium text-gray-700">{service.name}</span>
-                        <span className="text-primary font-medium">+{service.price} TL</span>
-                      </label>
-                    </div>
+          {isDetailsOpen && (
+            <div className="p-4 space-y-4 bg-gray-50 border-t border-blue-100">
+              {/* Şehir ve İlçe Seçimi */}
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="animate-slide-in" style={{ animationDelay: '100ms' }}>
+                  <label className="block text-sm font-medium mb-2 text-gray-600">Şehir</label>
+                  <Select value={city} onValueChange={setCity}>
+                    <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
+                      <SelectValue placeholder="Şehir seçin" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="İstanbul">İstanbul</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div className="animate-slide-in" style={{ animationDelay: '200ms' }}>
+                  <label className="block text-sm font-medium mb-2 text-gray-600">İlçe</label>
+                  <Select value={district} onValueChange={setDistrict}>
+                    <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
+                      <SelectValue placeholder="İlçe seçin" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="Ataşehir (Batı)">Ataşehir (Batı)</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+
+              {/* Sıklık Seçimi */}
+              <div className="animate-slide-in" style={{ animationDelay: '400ms' }}>
+                <label className="block text-sm font-medium mb-2 text-gray-600">
+                  Hangi Sıklıkla Temizlensin:
+                </label>
+                <div className="flex gap-3">
+                  {[
+                    { id: "single", label: "TEK SEFERLİK", discount: null },
+                    { id: "weekly", label: "HAFTALIK", discount: 15 },
+                    { id: "monthly", label: "AYLIK", discount: 25 }
+                  ].map((option) => (
+                    <Button
+                      key={option.id}
+                      variant={frequency === option.id ? "default" : "outline"}
+                      onClick={() => setFrequency(option.id as FrequencyType)}
+                      className={`flex-1 h-14 relative overflow-hidden transition-all duration-300 ${
+                        frequency === option.id ? "shadow-lg scale-105" : ""
+                      }`}
+                    >
+                      <div>
+                        <div>{option.label}</div>
+                        {option.discount && (
+                          <div className="text-xs opacity-75 mt-1">
+                            %{option.discount} İndirim
+                          </div>
+                        )}
+                      </div>
+                    </Button>
                   ))}
                 </div>
-              )}
-            </div>
-
-            {/* Promosyon Kodu */}
-            <div className="animate-slide-in" style={{ animationDelay: '600ms' }}>
-              <label className="block text-sm font-medium mb-2 text-gray-600">
-                Promosyon Kodu
-              </label>
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  value={promoCode}
-                  onChange={(e) => {
-                    setPromoCode(e.target.value.toUpperCase());
-                    setIsPromoValid(false);
-                  }}
-                  placeholder="Promosyon kodunuz"
-                  className="flex-1 px-3 py-2 border-2 rounded-lg focus:border-primary outline-none transition-colors"
-                />
-                <Button 
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    validatePromoCode(promoCode);
-                  }}
-                  className="bg-primary hover:bg-primary/90 text-white px-4 py-2"
-                >
-                  UYGULA
-                </Button>
               </div>
-              {isPromoValid && (
-                <div className="text-green-500 flex items-center animate-slide-in mt-2">
-                  <Check className="w-5 h-5 mr-1" /> Promosyon Kodunuz Onaylandı.
-                </div>
-              )}
-              {!isPromoValid && promoCode && (
-                <div className="text-red-500 flex items-center animate-slide-in mt-2 text-sm">
-                  Yeni promosyon kodu uygulamak için UYGULA'ya basın.
-                </div>
-              )}
-              <p className="text-xs text-gray-500 mt-2">
-                Örnek kodlar: YENI2024 (%10), BAHAR (%15), TEMIZ50 (50 TL)
-              </p>
-            </div>
 
-            {/* Toplam Fiyat ve Devam Et */}
-            <div className="flex items-center justify-between pt-4 border-t">
-              <div className="space-y-1">
-                <div className="flex items-baseline gap-3">
-                  <span className="text-2xl font-bold text-primary animate-pulse-slow">
-                    {calculatePrice().toLocaleString("tr-TR")} TL
-                  </span>
-                  {isPromoValid && (
-                    <span className="text-green-500 text-sm animate-slide-in">
-                      İndirim Uygulandı!
+              {/* Ek Hizmetler - Açılır/Kapanır */}
+              <div>
+                <button
+                  onClick={() => setSelectedExtras([])}
+                  className="w-full p-4 flex items-center justify-between bg-white rounded-lg shadow-sm"
+                >
+                  <span className="font-medium">Ek Hizmetler</span>
+                  {selectedExtras.length > 0 ? <ChevronUp /> : <ChevronDown />}
+                </button>
+                
+                {selectedExtras.length > 0 && (
+                  <div className="mt-2 space-y-2">
+                    {extraServices.map((service) => (
+                      <div key={service.id} 
+                        className="flex items-center space-x-2 p-2 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
+                        <Checkbox
+                          id={service.id}
+                          checked={selectedExtras.includes(service.id)}
+                          onCheckedChange={(checked) => handleCheckboxChange(checked as boolean, service.id)}
+                          className="border-2"
+                        />
+                        <label htmlFor={service.id} className="flex justify-between w-full text-sm cursor-pointer">
+                          <span className="font-medium text-gray-700">{service.name}</span>
+                          <span className="text-primary font-medium">+{service.price} TL</span>
+                        </label>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Promosyon Kodu */}
+              <div className="animate-slide-in" style={{ animationDelay: '600ms' }}>
+                <label className="block text-sm font-medium mb-2 text-gray-600">
+                  Promosyon Kodu
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    value={promoCode}
+                    onChange={(e) => {
+                      setPromoCode(e.target.value.toUpperCase());
+                      setIsPromoValid(false);
+                    }}
+                    placeholder="Promosyon kodunuz"
+                    className="flex-1 px-3 py-2 border-2 rounded-lg focus:border-primary outline-none transition-colors"
+                  />
+                  <Button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      validatePromoCode(promoCode);
+                    }}
+                    className="bg-primary hover:bg-primary/90 text-white px-4 py-2"
+                  >
+                    UYGULA
+                  </Button>
+                </div>
+                {isPromoValid && (
+                  <div className="text-green-500 flex items-center animate-slide-in mt-2">
+                    <Check className="w-5 h-5 mr-1" /> Promosyon Kodunuz Onaylandı.
+                  </div>
+                )}
+                {!isPromoValid && promoCode && (
+                  <div className="text-red-500 flex items-center animate-slide-in mt-2 text-sm">
+                    Yeni promosyon kodu uygulamak için UYGULA'ya basın.
+                  </div>
+                )}
+                <p className="text-xs text-gray-500 mt-2">
+                  Örnek kodlar: YENI2024 (%10), BAHAR (%15), TEMIZ50 (50 TL)
+                </p>
+              </div>
+
+              {/* Toplam Fiyat ve Devam Et */}
+              <div className="flex items-center justify-between pt-4 border-t">
+                <div className="space-y-1">
+                  <div className="flex items-baseline gap-3">
+                    <span className="text-2xl font-bold text-primary animate-pulse-slow">
+                      {calculatePrice().toLocaleString("tr-TR")} TL
                     </span>
+                    {isPromoValid && (
+                      <span className="text-green-500 text-sm animate-slide-in">
+                        İndirim Uygulandı!
+                      </span>
+                    )}
+                  </div>
+                  {frequency !== "single" && (
+                    <p className="text-sm text-gray-500">
+                      {frequency === "weekly" ? "Haftalık" : "Aylık"} temizlik ücreti
+                    </p>
+                  )}
+                  {selectedExtras.length > 0 && (
+                    <p className="text-sm text-gray-500">
+                      {selectedExtras.length} adet ekstra hizmet dahil
+                    </p>
                   )}
                 </div>
-                {frequency !== "single" && (
-                  <p className="text-sm text-gray-500">
-                    {frequency === "weekly" ? "Haftalık" : "Aylık"} temizlik ücreti
-                  </p>
-                )}
-                {selectedExtras.length > 0 && (
-                  <p className="text-sm text-gray-500">
-                    {selectedExtras.length} adet ekstra hizmet dahil
-                  </p>
-                )}
+                <Button size="default" className="animate-float">
+                  DEVAM ET
+                </Button>
               </div>
-              <Button size="default" className="animate-float">
-                DEVAM ET
-              </Button>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   )

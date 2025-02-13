@@ -65,13 +65,16 @@ export function SiteFooter() {
                 href="https://instagram.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-white/80 hover:text-white transition-colors group"
+                className="flex items-center gap-3 group"
               >
-                <span className="bg-gradient-to-br from-[#FF3880] to-[#C13584] p-2 rounded-full 
-                  group-hover:shadow-lg group-hover:shadow-[#C13584]/30 transition-all">
-                  <Instagram className="w-5 h-5 text-white" />
+                <span className="bg-white text-black p-1.5 rounded-full 
+                  hover:scale-110 transition-all duration-300
+                  hover:shadow-lg hover:shadow-white/30">
+                  <Instagram className="w-3 h-3" />
                 </span>
-                <span className="text-sm">@peratemizlikk</span>
+                <span className="text-sm text-white/80 group-hover:text-white transition-colors">
+                  @peratemizlikk
+                </span>
               </a>
             </div>
           </div>
