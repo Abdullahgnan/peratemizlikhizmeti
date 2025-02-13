@@ -22,7 +22,7 @@ export default function EvTemizligiPage() {
             <h2 className="text-2xl font-bold mb-4">Ev Temizliği Hizmetimiz</h2>
             <p className="text-gray-600 mb-4">
               Profesyonel ev temizlik hizmetimiz, evinizin her köşesinin detaylı ve özenli bir şekilde temizlenmesini sağlar. 
-              Deneyimli ekibimiz, modern ekipmanlar ve etkili temizlik malzemeleri kullanarak evinizi tertemiz ve hijyenik hale getirir.
+              Deneyimli ekibimiz, modern ekipmanlar kullanarak evinizi tertemiz ve hijyenik hale getirir.
             </p>
             <ul className="space-y-2">
               {[
@@ -48,10 +48,6 @@ export default function EvTemizligiPage() {
                 {
                   title: "Profesyonel Ekip",
                   desc: "Deneyimli ve güvenilir temizlik personelimiz"
-                },
-                {
-                  title: "Kaliteli Malzemeler",
-                  desc: "Sağlığa ve çevreye duyarlı temizlik ürünleri"
                 },
                 {
                   title: "Güvenilir Hizmet",

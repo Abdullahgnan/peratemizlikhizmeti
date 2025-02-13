@@ -42,10 +42,10 @@ const promoCodes: PromoCodeType = {
 const hourlyPrices = [
   { hours: "3", price: "1250", note: "Aynı gün talep için ideal" },
   { hours: "4", price: "1500", note: "Aynı gün talep için ideal" },
-  { hours: "5", price: "1850", note: "" },
+  { hours: "5", price: "1850", note: "Aynı gün talep için ideal" },
   { hours: "6", price: "2100", note: "1+1 Evler için önerilir" },
   { hours: "7", price: "2350", note: "2+1 Evler için önerilir" },
-  { hours: "8", price: "2600", note: "3+1 Evler için önerilir" },
+  { hours: "8", price: "2600", note: "3+1 Evler için önerilir" }
 ]
 
 export function PriceCalculator() {
@@ -59,6 +59,7 @@ export function PriceCalculator() {
   const [isPromoValid, setIsPromoValid] = React.useState(false)
   const [appliedPromoCode, setAppliedPromoCode] = React.useState("")
   const [isDetailsOpen, setIsDetailsOpen] = React.useState(false)
+  const [isExtraServicesOpen, setIsExtraServicesOpen] = React.useState(false)
 
   const validatePromoCode = (code: string) => {
     const upperCode = code.toUpperCase();
@@ -121,6 +122,10 @@ export function PriceCalculator() {
     } else {
       setSelectedExtras(selectedExtras.filter(id => id !== serviceId))
     }
+  }
+
+  const applyPromoCode = () => {
+    validatePromoCode(promoCode);
   }
 
   return (
@@ -249,14 +254,14 @@ export function PriceCalculator() {
               {/* Ek Hizmetler - Açılır/Kapanır */}
               <div>
                 <button
-                  onClick={() => setSelectedExtras([])}
+                  onClick={() => setIsExtraServicesOpen(!isExtraServicesOpen)}
                   className="w-full p-4 flex items-center justify-between bg-white rounded-lg shadow-sm"
                 >
                   <span className="font-medium">Ek Hizmetler</span>
-                  {selectedExtras.length > 0 ? <ChevronUp /> : <ChevronDown />}
+                  {isExtraServicesOpen ? <ChevronUp /> : <ChevronDown />}
                 </button>
                 
-                {selectedExtras.length > 0 && (
+                {isExtraServicesOpen && (
                   <div className="mt-2 space-y-2">
                     {extraServices.map((service) => (
                       <div key={service.id} 
@@ -278,44 +283,32 @@ export function PriceCalculator() {
               </div>
 
               {/* Promosyon Kodu */}
-              <div className="animate-slide-in" style={{ animationDelay: '600ms' }}>
-                <label className="block text-sm font-medium mb-2 text-gray-600">
+              <div className="mt-4">
+                <label className="block text-sm font-semibold text-gray-800 mb-2">
                   Promosyon Kodu
                 </label>
-                <div className="flex gap-2">
+                <div className="mt-1 flex">
                   <input
                     type="text"
+                    name="promo"
+                    id="promo"
+                    className="block w-full rounded-l-md border-2 border-gray-300 px-4 py-2 
+                    focus:border-blue-500 focus:ring-blue-500 sm:text-sm transition-all 
+                    placeholder:text-gray-400 hover:border-gray-400"
+                    placeholder="Promosyon kodunuz varsa giriniz"
                     value={promoCode}
-                    onChange={(e) => {
-                      setPromoCode(e.target.value.toUpperCase());
-                      setIsPromoValid(false);
-                    }}
-                    placeholder="Promosyon kodunuz"
-                    className="flex-1 px-3 py-2 border-2 rounded-lg focus:border-primary outline-none transition-colors"
+                    onChange={(e) => setPromoCode(e.target.value)}
                   />
-                  <Button 
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      validatePromoCode(promoCode);
-                    }}
-                    className="bg-primary hover:bg-primary/90 text-white px-4 py-2"
+                  <button
+                    onClick={applyPromoCode}
+                    className="ml-[-2px] px-6 py-2 bg-blue-600 text-white font-medium 
+                    rounded-r-md border-2 border-blue-600 hover:bg-blue-700 
+                    hover:border-blue-700 transition-all focus:outline-none 
+                    focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                   >
-                    UYGULA
-                  </Button>
+                    Uygula
+                  </button>
                 </div>
-                {isPromoValid && (
-                  <div className="text-green-500 flex items-center animate-slide-in mt-2">
-                    <Check className="w-5 h-5 mr-1" /> Promosyon Kodunuz Onaylandı.
-                  </div>
-                )}
-                {!isPromoValid && promoCode && (
-                  <div className="text-red-500 flex items-center animate-slide-in mt-2 text-sm">
-                    Yeni promosyon kodu uygulamak için UYGULA'ya basın.
-                  </div>
-                )}
-                <p className="text-xs text-gray-500 mt-2">
-                  Örnek kodlar: YENI2024 (%10), BAHAR (%15), TEMIZ50 (50 TL)
-                </p>
               </div>
 
               {/* Toplam Fiyat ve Devam Et */}
