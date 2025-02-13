@@ -24,33 +24,6 @@ export default function Home() {
 
         {/* Tüm içeriği z-index ile öne çıkaralım */}
         <div className="relative z-10">
-          {/* Header */}
-          <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
-            <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <Image 
-                  src="/logo.svg" 
-                  alt="PeraHizmet Logo" 
-                  width={40} 
-                  height={40}
-                  className="animate-fade-in"
-                />
-                <span className="text-2xl font-bold text-primary">PeraHizmet</span>
-              </div>
-              
-              <nav className="hidden md:flex items-center gap-6">
-                <Link href="/hizmetler/ev-temizligi" className="hover:text-primary transition-colors">Ev Temizliği</Link>
-                <Link href="/hizmetler/ofis-temizligi" className="hover:text-primary transition-colors">Ofis Temizliği</Link>
-                <Link href="/hizmetler/bos-ev-temizligi" className="hover:text-primary transition-colors">Boş Ev Temizliği</Link>
-                <Link href="/hakkimizda" className="hover:text-primary transition-colors">Hakkımızda</Link>
-                <Link href="/iletisim" className="hover:text-primary transition-colors">İletişim</Link>
-                <Button asChild>
-                  <Link href="/iletisim">Teklif Al</Link>
-                </Button>
-              </nav>
-            </div>
-          </header>
-
           {/* Hero Section */}
           <section aria-label="Hero Bölümü" className="pt-32 pb-16 relative">
             <div className="container mx-auto px-4">
