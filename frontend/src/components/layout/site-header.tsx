@@ -10,7 +10,7 @@ export function SiteHeader() {
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-800 opacity-95" />
       
-      <div className="container mx-auto px-4 py-4 relative">
+      <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link 
@@ -21,18 +21,18 @@ export function SiteHeader() {
             <Image 
               src="/logo.svg" 
               alt="PeraHizmet Logo"
-              width={45} 
-              height={45}
+              width={40}
+              height={40}
               priority
               className="brightness-110 hover:brightness-125 transition-all"
             />
-            <span className="text-2xl font-bold text-white">PeraHizmet</span>
+            <span className="text-xl font-bold text-white">PeraHizmet</span>
           </Link>
           
           {/* Navigation ve Sosyal Medya */}
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-6">
             {/* Navigation */}
-            <nav aria-label="Ana Menü" className="hidden md:flex items-center gap-8">
+            <nav aria-label="Ana Menü" className="hidden md:flex items-center gap-6">
               {[
                 { href: "/hizmetler/ev-temizligi", label: "Ev Temizliği" },
                 { href: "/hizmetler/ofis-temizligi", label: "Ofis Temizliği" },
@@ -54,21 +54,22 @@ export function SiteHeader() {
             </nav>
 
             {/* CTA Button */}
-            <Button asChild className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 
-              hover:to-blue-700 text-white px-8 py-6 rounded-full shadow-lg hover:shadow-xl 
-              transform hover:-translate-y-0.5 transition-all duration-300 font-semibold">
-              <Link href="/iletisim">Teklif Al</Link>
+            <Button asChild className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 
+              hover:to-emerald-700 text-white px-6 py-5 rounded-full shadow-lg hover:shadow-xl 
+              transform hover:-translate-y-0.5 transition-all duration-300 font-semibold
+              border border-emerald-400/20 hover:border-emerald-400/40">
+              <Link href="/hizmetler/ev-temizligi">Teklif Al</Link>
             </Button>
 
             {/* Sosyal Medya İkonları */}
-            <div className="hidden md:flex items-center gap-4 ml-6">
+            <div className="flex items-center gap-4 ml-5">
               <a
                 href="https://instagram.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-br from-[#FF3880] to-[#C13584] text-white 
-                  hover:scale-110 transition-all duration-300 p-2 rounded-full 
-                  hover:shadow-lg hover:shadow-[#C13584]/30"
+                className="relative z-50 bg-gradient-to-br from-[#FF3880] to-[#C13584] text-white 
+                  hover:scale-110 transition-all duration-300 p-2.5 rounded-full 
+                  hover:shadow-lg hover:shadow-[#C13584]/30 cursor-pointer"
                 aria-label="Instagram'da Bizi Takip Edin"
               >
                 <Instagram className="w-5 h-5" />
@@ -77,9 +78,9 @@ export function SiteHeader() {
                 href="https://facebook.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-br from-[#1877F2] to-[#166BDA] text-white 
-                  hover:scale-110 transition-all duration-300 p-2 rounded-full 
-                  hover:shadow-lg hover:shadow-[#1877F2]/30"
+                className="relative z-50 bg-gradient-to-br from-[#1877F2] to-[#166BDA] text-white 
+                  hover:scale-110 transition-all duration-300 p-2.5 rounded-full 
+                  hover:shadow-lg hover:shadow-[#1877F2]/30 cursor-pointer"
                 aria-label="Facebook'ta Bizi Takip Edin"
               >
                 <Facebook className="w-5 h-5" />
@@ -88,9 +89,9 @@ export function SiteHeader() {
                 href="https://twitter.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-br from-[#1DA1F2] to-[#19A1F7] text-white 
-                  hover:scale-110 transition-all duration-300 p-2 rounded-full 
-                  hover:shadow-lg hover:shadow-[#1DA1F2]/30"
+                className="relative z-50 bg-gradient-to-br from-[#1DA1F2] to-[#19A1F7] text-white 
+                  hover:scale-110 transition-all duration-300 p-2.5 rounded-full 
+                  hover:shadow-lg hover:shadow-[#1DA1F2]/30 cursor-pointer"
                 aria-label="Twitter'da Bizi Takip Edin"
               >
                 <Twitter className="w-5 h-5" />

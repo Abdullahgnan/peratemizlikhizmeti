@@ -1,89 +1,110 @@
-import * as React from "react"
 import Link from "next/link"
 import { Instagram, Facebook, Twitter } from "lucide-react"
 
 export function SiteFooter() {
   return (
-    <footer role="contentinfo" className="bg-gray-900/95 backdrop-blur-sm text-white py-8">
+    <footer className="bg-gray-900 text-white min-h-[200px] py-8">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-6">
-          {/* Şirket Bilgileri */}
-          <section aria-label="Şirket Bilgileri">
-            <h2 className="text-lg font-bold mb-2 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          {/* Logo ve Açıklama */}
+          <div className="space-y-2">
+            <h2 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
               PeraHizmet
             </h2>
             <p className="text-gray-400 text-xs">
-              Profesyonel temizlik hizmetlerinde güvenilir çözüm ortağınız.
+              İstanbul'un güvenilir temizlik hizmeti. Profesyonel ekip ve modern ekipmanlarla hizmetinizdeyiz.
             </p>
-          </section>
+          </div>
 
-          {/* Hızlı Erişim */}
-          <section aria-label="Hızlı Erişim">
-            <h2 className="text-base font-semibold mb-2 text-blue-400">Hızlı Erişim</h2>
-            <nav aria-label="Footer Navigation">
-              <ul className="space-y-1.5 text-xs">
-                <li>
-                  <Link href="/hizmetler/ev-temizligi" className="text-gray-400 hover:text-blue-400 transition-colors">
-                    Ev Temizliği
-                  </Link>
-                </li>
-                <li><Link href="/hizmetler/ofis-temizligi" className="text-gray-400 hover:text-blue-400 transition-colors">Ofis Temizliği</Link></li>
-                <li><Link href="/hizmetler/bos-ev-temizligi" className="text-gray-400 hover:text-blue-400 transition-colors">Boş Ev Temizliği</Link></li>
-                <li><Link href="/hakkimizda" className="text-gray-400 hover:text-blue-400 transition-colors">Hakkımızda</Link></li>
-                <li><Link href="/iletisim" className="text-gray-400 hover:text-blue-400 transition-colors">İletişim</Link></li>
-              </ul>
-            </nav>
-          </section>
-
-          {/* İletişim */}
-          <section aria-label="İletişim Bilgileri">
-            <h2 className="text-base font-semibold mb-2 text-blue-400">İletişim</h2>
-            <ul className="space-y-1.5 text-xs text-gray-400">
-              <li className="flex items-center gap-1.5">
-                <span>📞</span>
-                <a href="tel:05435819688" className="hover:text-blue-400 transition-colors">
-                  0543 581 96 88
-                </a>
+          {/* Hizmetlerimiz */}
+          <div className="space-y-2">
+            <h3 className="text-md font-semibold text-blue-400">Hizmetlerimiz</h3>
+            <ul className="space-y-1">
+              <li>
+                <Link href="/hizmetler/ev-temizligi" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">
+                  Ev Temizliği
+                </Link>
               </li>
-              <li className="flex items-center gap-1.5">
-                <span>📧</span>
-                <a href="mailto:info@perahizmet.com" className="hover:text-blue-400 transition-colors">
-                  info@perahizmet.com
-                </a>
+              <li>
+                <Link href="/hizmetler/ofis-temizligi" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">
+                  Ofis Temizliği
+                </Link>
               </li>
-              <li className="flex items-center gap-1.5">
-                <span>📍</span>
-                <span>İstanbul, Türkiye</span>
+              <li>
+                <Link href="/hizmetler/bos-ev-temizligi" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">
+                  Boş Ev Temizliği
+                </Link>
               </li>
             </ul>
-          </section>
+          </div>
+
+          {/* İletişim */}
+          <div className="space-y-2">
+            <h3 className="text-md font-semibold text-blue-400">İletişim</h3>
+            <ul className="space-y-1">
+              <li className="text-gray-400 text-sm">
+                📞 0543 581 96 88
+              </li>
+              <li className="text-gray-400 text-sm">
+                📧 info@perahizmet.com
+              </li>
+              <li className="text-gray-400 text-sm">
+                📍 İstanbul, Türkiye
+              </li>
+            </ul>
+          </div>
 
           {/* Sosyal Medya */}
-          <section aria-label="Sosyal Medya">
-            <h2 className="text-base font-semibold mb-2 text-blue-400">Sosyal Medya</h2>
-            <div className="flex space-x-4">
-              <Link
-                href="https://www.instagram.com/peratemizlikk"
+          <div className="space-y-2">
+            <h3 className="text-md font-semibold text-blue-400">Sosyal Medya</h3>
+            <div className="flex flex-col gap-2">
+              <a
+                href="https://instagram.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary"
+                className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
               >
-                <Instagram className="w-5 h-5" />
-              </Link>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-[#1877F2] flex items-center justify-center hover:opacity-90 transition-opacity"
-                aria-label="Facebook"
+                <span className="bg-gradient-to-br from-[#FF3880] to-[#C13584] p-2 rounded-full 
+                  group-hover:shadow-lg group-hover:shadow-[#C13584]/30 transition-all">
+                  <Instagram className="w-5 h-5 text-white" />
+                </span>
+                <span className="text-sm">@peratemizlikk</span>
+              </a>
+              
+              <a
+                href="https://facebook.com/peratemizlikk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
               >
-                <Facebook className="w-5 h-5 text-white" />
+                <span className="bg-gradient-to-br from-[#1877F2] to-[#166BDA] p-2 rounded-full 
+                  group-hover:shadow-lg group-hover:shadow-[#1877F2]/30 transition-all">
+                  <Facebook className="w-5 h-5 text-white" />
+                </span>
+                <span className="text-sm">@peratemizlikk</span>
+              </a>
+              
+              <a
+                href="https://twitter.com/peratemizlikk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
+              >
+                <span className="bg-gradient-to-br from-[#1DA1F2] to-[#19A1F7] p-2 rounded-full 
+                  group-hover:shadow-lg group-hover:shadow-[#1DA1F2]/30 transition-all">
+                  <Twitter className="w-5 h-5 text-white" />
+                </span>
+                <span className="text-sm">@peratemizlikk</span>
               </a>
             </div>
-          </section>
+          </div>
         </div>
 
-        {/* Telif Hakkı */}
-        <div className="border-t border-gray-800 mt-6 pt-6 text-center">
-          <p className="text-xs text-gray-500">&copy; 2025 PeraHizmet. Tüm hakları saklıdır.</p>
+        {/* Alt Footer - Copyright */}
+        <div className="border-t border-gray-800 mt-6 pt-4">
+          <div className="text-xs text-gray-500 text-center">
+            © 2024 PeraHizmet. Tüm hakları saklıdır.
+          </div>
         </div>
       </div>
     </footer>
