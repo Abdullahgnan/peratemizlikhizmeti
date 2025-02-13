@@ -20,8 +20,9 @@ export function Footer() {
                 href="https://instagram.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/80 hover:text-[#E4405F] hover:scale-110 transition-all duration-300 
-                  bg-white/5 p-3 rounded-full hover:bg-white/10"
+                className="bg-gradient-to-br from-[#FF3880] to-[#C13584] text-white 
+                  hover:scale-110 transition-all duration-300 p-3 rounded-full 
+                  hover:shadow-lg hover:shadow-[#C13584]/30"
                 aria-label="Instagram'da Bizi Takip Edin"
               >
                 <Instagram className="w-6 h-6" />
@@ -30,8 +31,9 @@ export function Footer() {
                 href="https://facebook.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/80 hover:text-[#1877F2] hover:scale-110 transition-all duration-300 
-                  bg-white/5 p-3 rounded-full hover:bg-white/10"
+                className="bg-gradient-to-br from-[#1877F2] to-[#166BDA] text-white 
+                  hover:scale-110 transition-all duration-300 p-3 rounded-full 
+                  hover:shadow-lg hover:shadow-[#1877F2]/30"
                 aria-label="Facebook'ta Bizi Takip Edin"
               >
                 <Facebook className="w-6 h-6" />
@@ -40,8 +42,9 @@ export function Footer() {
                 href="https://twitter.com/peratemizlikk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white/80 hover:text-[#1DA1F2] hover:scale-110 transition-all duration-300 
-                  bg-white/5 p-3 rounded-full hover:bg-white/10"
+                className="bg-gradient-to-br from-[#1DA1F2] to-[#19A1F7] text-white 
+                  hover:scale-110 transition-all duration-300 p-3 rounded-full 
+                  hover:shadow-lg hover:shadow-[#1DA1F2]/30"
                 aria-label="Twitter'da Bizi Takip Edin"
               >
                 <Twitter className="w-6 h-6" />
