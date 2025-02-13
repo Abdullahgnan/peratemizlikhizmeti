@@ -6,7 +6,7 @@ import { Instagram, Facebook, Twitter } from "lucide-react"
 
 export function SiteHeader() {
   return (
-    <header role="banner" className="fixed w-full z-50">
+    <header role="banner" className="fixed w-full z-[100]">
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-800 opacity-95" />
       
