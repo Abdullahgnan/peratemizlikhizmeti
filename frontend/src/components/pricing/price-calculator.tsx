@@ -123,12 +123,13 @@ export function PriceCalculator() {
   }
 
   return (
-    <Card className="p-8 shadow-blue hover-shadow-blue transition-all duration-300 border-4 border-primary/80 rounded-xl">
-      <h2 className="text-3xl font-bold mb-8 text-primary animate-slide-in">
+    <Card className="p-8 shadow-blue hover-shadow-blue transition-all duration-300 
+      border-4 border-primary/80 rounded-xl w-[70%] mx-auto">
+      <h2 className="text-2xl font-bold mb-6 text-primary animate-slide-in">
         Fiyat Hesapla
       </h2>
       
-      <div className="space-y-6">
+      <div className="space-y-4">
         {/* Şehir Seçimi */}
         <div className="animate-slide-in" style={{ animationDelay: '100ms' }}>
           <label className="block text-sm font-medium mb-2 text-gray-600">Şehir</label>
@@ -166,7 +167,7 @@ export function PriceCalculator() {
                 className="relative cursor-pointer"
               >
                 <div className={`
-                  p-2 text-center rounded-lg transition-all duration-300
+                  p-1.5 text-center rounded-lg transition-all duration-300
                   ${hours === item.hours 
                     ? 'bg-primary text-white shadow-lg scale-105' 
                     : 'bg-white hover:border-primary border border-gray-200'
@@ -227,10 +228,10 @@ export function PriceCalculator() {
           <label className="block text-sm font-medium mb-3 text-gray-600">
             Ekstra Hizmetler
           </label>
-          <div className="space-y-3 bg-gray-50 p-4 rounded-lg">
+          <div className="space-y-2">
             {extraServices.map((service) => (
               <div key={service.id} 
-                className="flex items-center space-x-3 p-3 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
+                className="flex items-center space-x-2 p-2 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
                 <Checkbox
                   id={service.id}
                   checked={selectedExtras.includes(service.id)}
@@ -251,7 +252,7 @@ export function PriceCalculator() {
           <label className="block text-sm font-medium mb-2 text-gray-600">
             Promosyon Kodu
           </label>
-          <div className="flex gap-3">
+          <div className="flex gap-2">
             <input
               type="text"
               value={promoCode}
@@ -260,14 +261,14 @@ export function PriceCalculator() {
                 setIsPromoValid(false);
               }}
               placeholder="Promosyon kodunuz"
-              className="flex-1 px-4 py-3 border-2 rounded-lg focus:border-primary outline-none transition-colors"
+              className="flex-1 px-3 py-2 border-2 rounded-lg focus:border-primary outline-none transition-colors"
             />
             <Button 
               onClick={(e) => {
                 e.stopPropagation();
                 validatePromoCode(promoCode);
               }}
-              className="bg-primary hover:bg-primary/90 text-white px-6"
+              className="bg-primary hover:bg-primary/90 text-white px-4 py-2"
             >
               UYGULA
             </Button>
@@ -288,10 +289,10 @@ export function PriceCalculator() {
         </div>
 
         {/* Fiyat ve Devam Et */}
-        <div className="flex items-center justify-between pt-6 border-t mt-6">
+        <div className="flex items-center justify-between pt-4 border-t mt-4">
           <div className="space-y-1">
             <div className="flex items-baseline gap-3">
-              <span className="text-3xl font-bold text-primary animate-pulse-slow">
+              <span className="text-2xl font-bold text-primary animate-pulse-slow">
                 {calculatePrice().toLocaleString("tr-TR")} TL
               </span>
               {isPromoValid && (
@@ -311,9 +312,8 @@ export function PriceCalculator() {
               </p>
             )}
           </div>
-          <Button size="lg" className="animate-float">
+          <Button size="default" className="animate-float">
             DEVAM ET
-            <span className="ml-2">→</span>
           </Button>
         </div>
       </div>
