@@ -427,17 +427,17 @@ export default function OfisTemizligi() {
             </TabsContent>
 
             <TabsContent value="odalar">
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {cleaningServices.map((service) => (
                   <div 
                     key={service.title} 
-                    className="group bg-white rounded-xl p-6 shadow-lg hover:shadow-xl 
-                      transition-all duration-300 border-2 border-transparent hover:border-primary"
+                    className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg 
+                      transition-all duration-300 border border-gray-100"
                   >
-                    <div className="flex items-center gap-4 mb-4">
-                      <span className="text-3xl">{service.icon}</span>
+                    <div className="flex items-start gap-3 mb-3">
+                      <span className="text-2xl">{service.icon}</span>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900">{service.title}</h3>
+                        <h3 className="text-base font-semibold text-gray-900">{service.title}</h3>
                         <p className="text-sm text-gray-600">{service.description}</p>
                       </div>
                     </div>
