@@ -80,143 +80,116 @@ const faqs: FAQ[] = [
 
 export default function EvTemizligiPage() {
   return (
-    <main className="container mx-auto px-4">
-      {/* Hero Section - Daha kısa */}
-      <section className="pt-16 pb-4 bg-gradient-to-br from-blue-50 via-white to-blue-50">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Sol Taraf - Daha etkileyici metin ve özellikler */}
+    <main className="container mx-auto px-3">
+      {/* Hero Section */}
+      <section className="pt-12 pb-3 bg-gradient-to-br from-blue-50 via-white to-blue-50">
+        <div className="container mx-auto px-3">
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            {/* Sol Taraf - Ana Bilgiler */}
             <div className="space-y-6">
-              <div className="inline-block px-4 py-2 bg-blue-100 rounded-full text-blue-700 font-medium text-sm mb-2">
-                %100 Müşteri Memnuniyeti 🌟
-              </div>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Eviniz İçin <span className="text-blue-600">Profesyonel</span> Temizlik Hizmeti
-              </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                Deneyimli ekibimizle evinizi pırıl pırıl yapıyor, size temiz ve ferah bir yaşam alanı sunuyoruz.
-              </p>
-
-              {/* Öne Çıkan Özellikler */}
-              <div className="grid grid-cols-2 gap-4 mt-8">
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                    <span className="text-2xl">⚡</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold">Hızlı Hizmet</h3>
-                    <p className="text-sm text-gray-600">Aynı gün temizlik</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <span className="text-2xl">🏆</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold">Garantili</h3>
-                    <p className="text-sm text-gray-600">%100 Memnuniyet</p>
-                  </div>
-                </div>
+              {/* Üst Badge */}
+              <div className="inline-block px-3 py-1.5 bg-blue-100 rounded-full text-blue-700 text-sm">
+                ⭐ 4.9/5 (500+ Değerlendirme)
               </div>
 
-              {/* CTA Butonları */}
-              <div className="flex flex-wrap gap-4 mt-8">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6">
+              {/* Ana Başlık */}
+              <div className="space-y-3">
+                <h1 className="text-3xl font-bold text-gray-900">
+                  Eviniz İçin <span className="text-blue-600">Profesyonel</span> Temizlik Hizmeti
+                </h1>
+                <p className="text-gray-600 text-base">
+                  Deneyimli ekibimizle evinizi pırıl pırıl yapıyor, size temiz ve ferah bir yaşam alanı sunuyoruz.
+                </p>
+              </div>
+
+              {/* Özellikler Grid */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-yellow-50 rounded-full flex items-center justify-center">
+                    ⚡
+                  </div>
+                  <div>
+                    <p className="font-medium">Hızlı Hizmet</p>
+                    <p className="text-sm text-gray-500">Aynı gün temizlik</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-blue-50 rounded-full flex items-center justify-center">
+                    🏆
+                  </div>
+                  <div>
+                    <p className="font-medium">Garantili</p>
+                    <p className="text-sm text-gray-500">%100 Memnuniyet</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-green-50 rounded-full flex items-center justify-center">
+                    ✓
+                  </div>
+                  <div>
+                    <p className="font-medium">1000+ Müşteri</p>
+                    <p className="text-sm text-gray-500">Mutlu müşteriler</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-purple-50 rounded-full flex items-center justify-center">
+                    💎
+                  </div>
+                  <div>
+                    <p className="font-medium">Özel Fiyatlar</p>
+                    <p className="text-sm text-gray-500">%25'e varan indirim</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Butonlar */}
+              <div className="flex gap-3">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-6">
                   Hemen Fiyat Al
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+                <Button size="lg" variant="outline" className="px-6">
                   Detaylı Bilgi
                 </Button>
               </div>
-
-              {/* Güven Göstergeleri */}
-              <div className="flex items-center gap-6 mt-8 text-gray-600">
-                <div className="flex items-center gap-2">
-                  <span className="text-yellow-400 text-xl">⭐</span>
-                  <span className="font-medium">4.9/5</span>
-                  <span className="text-sm">(500+ Değerlendirme)</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-green-500 text-xl">✓</span>
-                  <span className="text-sm font-medium">1000+ Mutlu Müşteri</span>
-                </div>
-              </div>
             </div>
-            
+
             {/* Sağ Taraf - Görsel */}
-            <div className="relative h-[500px] lg:h-[600px]">
+            <div className="relative w-full h-[320px] lg:h-[400px]">
               <Image
                 src="/images/ev-temizligi-hero.jpg"
                 alt="Profesyonel ev temizlik hizmeti"
                 fill
-                className="object-cover rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-300"
+                className="object-cover rounded-xl shadow-md"
                 priority
               />
-              {/* Overlay Badge */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 flex items-center gap-3">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                  <span className="text-2xl">💎</span>
-                </div>
-                <div>
-                  <p className="font-bold text-lg">Özel Fiyatlar</p>
-                  <p className="text-blue-600">%25'e varan indirim</p>
-                </div>
+              {/* Görsel üzerinde fiyat badge */}
+              <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg">
+                <p className="text-sm font-medium text-blue-600">Başlayan Fiyatlarla</p>
+                <p className="text-lg font-bold">₺1250'den itibaren</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Fiyatlandırma Bölümü - Yeni Tasarım */}
-      <section className="py-6 -mt-8">
-        <div className="max-w-5xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-2xl p-8 border border-blue-100 relative overflow-hidden">
-            {/* Dekoratif arka plan elementleri */}
-            <div className="absolute top-0 right-0 w-40 h-40 bg-blue-50 rounded-full -mr-20 -mt-20 z-0"></div>
-            <div className="absolute bottom-0 left-0 w-32 h-32 bg-green-50 rounded-full -ml-16 -mb-16 z-0"></div>
+      {/* Fiyatlandırma Section */}
+      <section className="py-4 -mt-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-white rounded-xl shadow-xl p-6 border border-blue-100">
+            <div className="text-center mb-6">
+              <span className="inline-block px-3 py-1.5 bg-blue-100 rounded-full text-blue-700 font-medium text-xs mb-2">
+                Özel Fiyatlar 💫
+              </span>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                Fiyatlandırma
+              </h2>
+              <p className="text-sm text-gray-600 max-w-2xl mx-auto">
+                Evinizin büyüklüğüne göre uygun fiyatlar. Haftalık ve aylık temizliklerde özel indirimler!
+              </p>
+            </div>
             
-            <div className="relative z-10">
-              <div className="text-center mb-8">
-                <span className="inline-block px-4 py-2 bg-blue-100 rounded-full text-blue-700 font-medium text-sm mb-3">
-                  Özel Fiyatlar 💫
-                </span>
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                  Fiyatlandırma
-                </h2>
-                <p className="text-gray-600 max-w-2xl mx-auto">
-                  Evinizin büyüklüğüne göre uygun fiyatlar. Haftalık ve aylık temizliklerde özel indirimler!
-                </p>
-              </div>
-
-              {/* Fiyat Hesaplama */}
-              <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
-                <PriceCalculator />
-              </div>
-
-              {/* Avantajlar */}
-              <div className="grid md:grid-cols-3 gap-6 mt-8">
-                <div className="flex items-center gap-3 bg-blue-50 rounded-lg p-4">
-                  <span className="text-2xl">💎</span>
-                  <div>
-                    <h3 className="font-semibold">Uygun Fiyat</h3>
-                    <p className="text-sm text-gray-600">Rekabetçi fiyatlar</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 bg-green-50 rounded-lg p-4">
-                  <span className="text-2xl">🎯</span>
-                  <div>
-                    <h3 className="font-semibold">Net Fiyat</h3>
-                    <p className="text-sm text-gray-600">Ek ücret yok</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 bg-yellow-50 rounded-lg p-4">
-                  <span className="text-2xl">⚡</span>
-                  <div>
-                    <h3 className="font-semibold">Hızlı Teklif</h3>
-                    <p className="text-sm text-gray-600">Anında fiyat</p>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-gray-50 rounded-lg p-4 border border-gray-100">
+              <PriceCalculator />
             </div>
           </div>
         </div>

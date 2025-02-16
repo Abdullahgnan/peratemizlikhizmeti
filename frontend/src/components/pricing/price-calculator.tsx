@@ -129,220 +129,192 @@ export function PriceCalculator() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto">
-      {/* Fiyat Kartları */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-        {hourlyPrices.map((item) => (
-          <div
-            key={item.hours}
-            onClick={() => {
-              setHours(item.hours)
-              setIsDetailsOpen(true)
-            }}
-            className={`
-              p-3 cursor-pointer rounded-lg transition-all duration-300 text-center
-              ${hours === item.hours 
-                ? 'bg-primary text-white shadow-lg scale-[1.02]' 
-                : 'bg-white hover:border-primary border-2 border-gray-200'
-              }
-            `}
-          >
-            <div className="text-base font-bold mb-1">{item.hours} SAAT</div>
-            <div className={`text-xl font-bold mb-1 ${hours === item.hours ? 'text-white' : 'text-primary'}`}>
-              ₺{item.price}
+    <div className="max-w-3xl mx-auto space-y-6">
+      {/* Ana Fiyat Seçimi */}
+      <div className="border-2 border-blue-200 rounded-lg p-4 bg-white shadow-md">
+        <h3 className="text-lg font-bold text-gray-900 mb-3">
+          1. Kaç Saat Temizlik Hizmeti İstiyorsunuz?
+        </h3>
+        
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+          {hourlyPrices.map((item) => (
+            <div
+              key={item.hours}
+              onClick={() => setHours(item.hours)}
+              className={`
+                p-3 cursor-pointer rounded-md transition-all duration-300
+                border-2 ${hours === item.hours 
+                  ? 'border-primary bg-primary/5 shadow-md scale-105' 
+                  : 'border-gray-200 hover:border-primary/50'
+                }
+              `}
+            >
+              <div className="text-center">
+                <div className="text-base font-bold mb-0.5">{item.hours} SAAT</div>
+                <div className="text-xl font-bold text-primary">₺{item.price}</div>
+                {item.note && (
+                  <div className="text-xs text-emerald-600 mt-0.5">{item.note}</div>
+                )}
+              </div>
             </div>
-            {item.note && (
-              <div className={`text-xs ${hours === item.hours ? 'text-white/90' : 'text-emerald-600'}`}>
-                {item.note}
+          ))}
+        </div>
+      </div>
+
+      {/* Sıklık Seçimi */}
+      <div className="border-2 border-blue-200 rounded-lg p-4 bg-white">
+        <h3 className="text-lg font-bold text-gray-900 mb-3">
+          2. Temizlik Sıklığını Seçin
+        </h3>
+        
+        <div className="grid md:grid-cols-3 gap-3">
+          {[
+            { id: "single", label: "TEK SEFERLİK", discount: null },
+            { id: "weekly", label: "HAFTALIK", discount: 15 },
+            { id: "monthly", label: "AYLIK", discount: 25 }
+          ].map((option) => (
+            <div
+              key={option.id}
+              onClick={() => setFrequency(option.id as FrequencyType)}
+              className={`
+                p-3 cursor-pointer rounded-md text-center
+                border-2 transition-all duration-300
+                ${frequency === option.id 
+                  ? 'border-primary bg-primary/5 shadow-md' 
+                  : 'border-gray-200 hover:border-primary/50'
+                }
+              `}
+            >
+              <div className="font-bold text-base">{option.label}</div>
+              {option.discount && (
+                <div className="text-emerald-600 font-medium mt-0.5">
+                  %{option.discount} İndirim
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Toplam Fiyat ve Devam Butonu */}
+      <div className="bg-blue-50 rounded-lg p-4 flex items-center justify-between">
+        <div>
+          <div className="text-2xl font-bold text-primary">
+            {calculatePrice().toLocaleString("tr-TR")} TL
+          </div>
+          <div className="text-gray-600 mt-0.5">
+            {frequency !== "single" && `${frequency === "weekly" ? "Haftalık" : "Aylık"} ücret`}
+          </div>
+        </div>
+        
+        <Button 
+          size="lg"
+          className="bg-primary hover:bg-primary/90 text-white px-8"
+        >
+          DEVAM ET
+        </Button>
+      </div>
+
+      {/* Opsiyonel: Ek Hizmetler Butonu */}
+      <button
+        onClick={() => setIsDetailsOpen(!isDetailsOpen)}
+        className="w-full py-3 px-4 text-gray-600 flex items-center justify-center gap-2 hover:text-primary transition-colors"
+      >
+        <span>Ek Hizmetleri Göster</span>
+        {isDetailsOpen ? <ChevronUp /> : <ChevronDown />}
+      </button>
+
+      {/* Ek Hizmetler Paneli */}
+      {isDetailsOpen && (
+        <div className="border rounded-lg p-4 space-y-4">
+          {/* Şehir ve İlçe Seçimi */}
+          <div className="grid md:grid-cols-2 gap-3">
+            <div className="animate-slide-in" style={{ animationDelay: '100ms' }}>
+              <label className="block text-sm font-medium mb-2 text-gray-600">Şehir</label>
+              <Select value={city} onValueChange={setCity}>
+                <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
+                  <SelectValue placeholder="Şehir seçin" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="İstanbul">İstanbul</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="animate-slide-in" style={{ animationDelay: '200ms' }}>
+              <label className="block text-sm font-medium mb-2 text-gray-600">İlçe</label>
+              <Select value={district} onValueChange={setDistrict}>
+                <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
+                  <SelectValue placeholder="İlçe seçin" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="Ataşehir (Batı)">Ataşehir (Batı)</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+
+          {/* Ek Hizmetler - Açılır/Kapanır */}
+          <div>
+            <button
+              onClick={() => setIsExtraServicesOpen(!isExtraServicesOpen)}
+              className="w-full p-3 flex items-center justify-between bg-white rounded-md shadow-sm"
+            >
+              <span className="font-medium">Ek Hizmetler</span>
+              {isExtraServicesOpen ? <ChevronUp /> : <ChevronDown />}
+            </button>
+            
+            {isExtraServicesOpen && (
+              <div className="mt-2 space-y-2">
+                {extraServices.map((service) => (
+                  <div key={service.id} 
+                    className="flex items-center space-x-2 p-2 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
+                    <Checkbox
+                      id={service.id}
+                      checked={selectedExtras.includes(service.id)}
+                      onCheckedChange={(checked) => handleCheckboxChange(checked as boolean, service.id)}
+                      className="border-2"
+                    />
+                    <label htmlFor={service.id} className="flex justify-between w-full text-sm cursor-pointer">
+                      <span className="font-medium text-gray-700">{service.name}</span>
+                      <span className="text-primary font-medium">+{service.price} TL</span>
+                    </label>
+                  </div>
+                ))}
               </div>
             )}
           </div>
-        ))}
-      </div>
 
-      {/* Detaylar - Açılır/Kapanır Panel */}
-      <div className="mt-8">
-        <div className="border-t border-gray-200">
-          <button
-            onClick={() => setIsDetailsOpen(!isDetailsOpen)}
-            className="w-full py-4 px-6 flex items-center justify-between 
-              bg-gradient-to-r from-blue-500 to-blue-600 text-white
-              hover:from-blue-600 hover:to-blue-700 
-              transition-all duration-300 shadow-md hover:shadow-lg
-              group"
-          >
-            <div className="flex items-center gap-2">
-              <span className="font-semibold text-base">
-                Detaylar ve Ek Hizmetler
-              </span>
-              <span className="text-sm text-blue-100">
-                (Adres, İndirimler ve Ek Hizmetler)
-              </span>
+          {/* Promosyon Kodu */}
+          <div className="mt-3">
+            <label className="block text-sm font-semibold text-gray-800 mb-2">
+              Promosyon Kodu
+            </label>
+            <div className="mt-1 flex">
+              <input
+                type="text"
+                name="promo"
+                id="promo"
+                className="block w-full rounded-l-md border-2 border-gray-300 px-4 py-2 
+                focus:border-blue-500 focus:ring-blue-500 sm:text-sm transition-all 
+                placeholder:text-gray-400 hover:border-gray-400"
+                placeholder="Promosyon kodunuz varsa giriniz"
+                value={promoCode}
+                onChange={(e) => setPromoCode(e.target.value)}
+              />
+              <button
+                onClick={applyPromoCode}
+                className="ml-[-2px] px-6 py-2 bg-blue-600 text-white font-medium 
+                rounded-r-md border-2 border-blue-600 hover:bg-blue-700 
+                hover:border-blue-700 transition-all focus:outline-none 
+                focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                Uygula
+              </button>
             </div>
-            <div className="flex items-center gap-2 text-blue-100 group-hover:text-white transition-colors">
-              <span className="text-sm">
-                {isDetailsOpen ? 'Gizle' : 'Göster'}
-              </span>
-              {isDetailsOpen ? 
-                <ChevronUp className="w-5 h-5 animate-bounce" /> : 
-                <ChevronDown className="w-5 h-5 animate-bounce" />
-              }
-            </div>
-          </button>
-
-          {isDetailsOpen && (
-            <div className="p-4 space-y-4 bg-gray-50 border-t border-blue-100">
-              {/* Şehir ve İlçe Seçimi */}
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="animate-slide-in" style={{ animationDelay: '100ms' }}>
-                  <label className="block text-sm font-medium mb-2 text-gray-600">Şehir</label>
-                  <Select value={city} onValueChange={setCity}>
-                    <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
-                      <SelectValue placeholder="Şehir seçin" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="İstanbul">İstanbul</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className="animate-slide-in" style={{ animationDelay: '200ms' }}>
-                  <label className="block text-sm font-medium mb-2 text-gray-600">İlçe</label>
-                  <Select value={district} onValueChange={setDistrict}>
-                    <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
-                      <SelectValue placeholder="İlçe seçin" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="Ataşehir (Batı)">Ataşehir (Batı)</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-              </div>
-
-              {/* Sıklık Seçimi */}
-              <div className="animate-slide-in" style={{ animationDelay: '400ms' }}>
-                <label className="block text-sm font-medium mb-2 text-gray-600">
-                  Hangi Sıklıkla Temizlensin:
-                </label>
-                <div className="flex gap-3">
-                  {[
-                    { id: "single", label: "TEK SEFERLİK", discount: null },
-                    { id: "weekly", label: "HAFTALIK", discount: 15 },
-                    { id: "monthly", label: "AYLIK", discount: 25 }
-                  ].map((option) => (
-                    <Button
-                      key={option.id}
-                      variant={frequency === option.id ? "default" : "outline"}
-                      onClick={() => setFrequency(option.id as FrequencyType)}
-                      className={`flex-1 h-14 relative overflow-hidden transition-all duration-300 ${
-                        frequency === option.id ? "shadow-lg scale-105" : ""
-                      }`}
-                    >
-                      <div>
-                        <div>{option.label}</div>
-                        {option.discount && (
-                          <div className="text-xs opacity-75 mt-1">
-                            %{option.discount} İndirim
-                          </div>
-                        )}
-                      </div>
-                    </Button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Ek Hizmetler - Açılır/Kapanır */}
-              <div>
-                <button
-                  onClick={() => setIsExtraServicesOpen(!isExtraServicesOpen)}
-                  className="w-full p-4 flex items-center justify-between bg-white rounded-lg shadow-sm"
-                >
-                  <span className="font-medium">Ek Hizmetler</span>
-                  {isExtraServicesOpen ? <ChevronUp /> : <ChevronDown />}
-                </button>
-                
-                {isExtraServicesOpen && (
-                  <div className="mt-2 space-y-2">
-                    {extraServices.map((service) => (
-                      <div key={service.id} 
-                        className="flex items-center space-x-2 p-2 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
-                        <Checkbox
-                          id={service.id}
-                          checked={selectedExtras.includes(service.id)}
-                          onCheckedChange={(checked) => handleCheckboxChange(checked as boolean, service.id)}
-                          className="border-2"
-                        />
-                        <label htmlFor={service.id} className="flex justify-between w-full text-sm cursor-pointer">
-                          <span className="font-medium text-gray-700">{service.name}</span>
-                          <span className="text-primary font-medium">+{service.price} TL</span>
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              {/* Promosyon Kodu */}
-              <div className="mt-4">
-                <label className="block text-sm font-semibold text-gray-800 mb-2">
-                  Promosyon Kodu
-                </label>
-                <div className="mt-1 flex">
-                  <input
-                    type="text"
-                    name="promo"
-                    id="promo"
-                    className="block w-full rounded-l-md border-2 border-gray-300 px-4 py-2 
-                    focus:border-blue-500 focus:ring-blue-500 sm:text-sm transition-all 
-                    placeholder:text-gray-400 hover:border-gray-400"
-                    placeholder="Promosyon kodunuz varsa giriniz"
-                    value={promoCode}
-                    onChange={(e) => setPromoCode(e.target.value)}
-                  />
-                  <button
-                    onClick={applyPromoCode}
-                    className="ml-[-2px] px-6 py-2 bg-blue-600 text-white font-medium 
-                    rounded-r-md border-2 border-blue-600 hover:bg-blue-700 
-                    hover:border-blue-700 transition-all focus:outline-none 
-                    focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                  >
-                    Uygula
-                  </button>
-                </div>
-              </div>
-
-              {/* Toplam Fiyat ve Devam Et */}
-              <div className="flex items-center justify-between pt-4 border-t">
-                <div className="space-y-1">
-                  <div className="flex items-baseline gap-3">
-                    <span className="text-2xl font-bold text-primary animate-pulse-slow">
-                      {calculatePrice().toLocaleString("tr-TR")} TL
-                    </span>
-                    {isPromoValid && (
-                      <span className="text-green-500 text-sm animate-slide-in">
-                        İndirim Uygulandı!
-                      </span>
-                    )}
-                  </div>
-                  {frequency !== "single" && (
-                    <p className="text-sm text-gray-500">
-                      {frequency === "weekly" ? "Haftalık" : "Aylık"} temizlik ücreti
-                    </p>
-                  )}
-                  {selectedExtras.length > 0 && (
-                    <p className="text-sm text-gray-500">
-                      {selectedExtras.length} adet ekstra hizmet dahil
-                    </p>
-                  )}
-                </div>
-                <Button size="default" className="animate-float">
-                  DEVAM ET
-                </Button>
-              </div>
-            </div>
-          )}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   )
 } 
