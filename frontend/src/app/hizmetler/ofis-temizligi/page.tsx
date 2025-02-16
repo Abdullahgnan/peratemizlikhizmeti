@@ -221,28 +221,63 @@ export default function OfisTemizligi() {
   return (
     <main role="main" aria-label="Ofis Temizliği Sayfası">
       {/* Hero Section */}
-      <section aria-label="Hero Bölümü" className="pt-32 pb-16 bg-gradient-to-b from-blue-50 to-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Sol taraf - Metin */}
-            <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                İstanbul Ofis Temizliği
-              </h1>
-              <p className="text-lg text-gray-700">
-                Profesyonel ofis temizlik hizmetleri ile işyeriniz her zaman temiz ve hijyenik.
-              </p>
+      <section className="pt-12 pb-3">
+        <div className="container mx-auto px-3">
+          <div className="grid lg:grid-cols-2 gap-8 items-start">
+            {/* Sol Taraf - Ana Bilgiler */}
+            <div className="space-y-8 bg-transparent pt-8">
+              {/* Üst Başlık */}
+              <div className="space-y-2">
+                <p className="text-blue-500 font-medium tracking-wide text-sm uppercase">
+                  Kurumsal Temizlik Çözümleri
+                </p>
+                <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
+                  İş Yerinizde <br/>
+                  <span className="text-blue-500">Kusursuz Temizlik</span>
+                </h1>
+              </div>
+              
+              <div className="space-y-4">
+                <p className="text-gray-800 text-lg leading-relaxed font-medium">
+                  Çalışma alanlarınızı hijyenik ve düzenli tutarak, iş verimliliğinizi artırıyoruz. 
+                  Siz işinize odaklanın, temizlik bizim işimiz.
+                </p>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  Plaza, ofis ve iş merkezleri için özel olarak tasarlanmış temizlik programları sunuyoruz. 
+                  Mesai saatleri dışında da hizmet vererek, iş akışınızı kesintiye uğratmıyoruz.
+                </p>
+              </div>
+
+              {/* Öne Çıkan Özellikler */}
+              <div className="grid grid-cols-2 gap-4 pt-4">
+                <div className="flex items-center gap-2">
+                  <span className="text-blue-500">✓</span>
+                  <span className="text-sm font-medium text-gray-700">Düzenli Program</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-blue-500">✓</span>
+                  <span className="text-sm font-medium text-gray-700">Gece Temizliği</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-blue-500">✓</span>
+                  <span className="text-sm font-medium text-gray-700">Sertifikalı Ekip</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-blue-500">✓</span>
+                  <span className="text-sm font-medium text-gray-700">Endüstriyel Ekipman</span>
+                </div>
+              </div>
             </div>
-            
-            {/* Sağ taraf - Görsel */}
-            <div className="relative">
+
+            {/* Sağ Taraf - Görsel */}
+            <div className="relative w-full h-[480px] -mt-12">
               <Image
-                src="/images/services/ofis-temizligi-hero.jpg"
-                alt="Profesyonel Ofis Temizliği Hizmetleri - PeraHizmet"
-                width={600}
-                height={400}
-                priority // Hero görsel olduğu için
-                className="rounded-xl shadow-lg"
+                src="/images/ofis-temizligi-hero.jpg"
+                alt="Profesyonel ofis temizlik hizmeti"
+                fill
+                className="object-cover rounded-xl shadow-lg"
+                priority
               />
             </div>
           </div>
