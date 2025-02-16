@@ -177,15 +177,8 @@ export default function EvTemizligiPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-xl shadow-xl p-6 border border-blue-100">
             <div className="text-center mb-6">
-              <span className="inline-block px-3 py-1.5 bg-blue-100 rounded-full text-blue-700 font-medium text-xs mb-2">
-                Özel Fiyatlar 💫
-              </span>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                Fiyatlandırma
-              </h2>
-              <p className="text-sm text-gray-600 max-w-2xl mx-auto">
-                Evinizin büyüklüğüne göre uygun fiyatlar. Haftalık ve aylık temizliklerde özel indirimler!
-              </p>
+             
+           
             </div>
             
             <div className="bg-gray-50 rounded-lg p-4 border border-gray-100">
@@ -199,18 +192,8 @@ export default function EvTemizligiPage() {
       <section className="py-12">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-blue-50/70 rounded-full mb-6 backdrop-blur-sm">
-            <span className="text-blue-600 font-medium">Geniş Hizmet Ağı</span>
-            <span className="text-lg">🌟</span>
+       
           </div>
-          
-          <h2 className="text-4xl font-bold text-gray-900 mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            İstanbul'un Her Bölgesindeyiz
-          </h2>
-          
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Avrupa ve Anadolu yakasının tüm ilçelerinde profesyonel temizlik hizmeti veriyoruz
-          </p>
-
           <div className="absolute left-0 right-0 -z-10">
             <div className="w-full h-[500px] bg-gradient-to-b from-blue-50/50 to-transparent"></div>
           </div>
