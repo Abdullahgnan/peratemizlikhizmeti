@@ -29,6 +29,21 @@ export default function Iletisim() {
                 <span>İstanbul, Türkiye</span>
               </p>
             </div>
+
+            {/* Çalışma Saatleri */}
+            <div className="mt-12">
+              <h2 className="text-2xl font-bold mb-6">Çalışma Saatleri</h2>
+              <div className="space-y-4">
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Hafta İçi</span>
+                  <span>Sabah 09:00 - Gece 00:00</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">Hafta Sonu</span>
+                  <span>Sabah 09:00 - Gece 02:00</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
