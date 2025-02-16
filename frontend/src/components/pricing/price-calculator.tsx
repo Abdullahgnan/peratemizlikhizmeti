@@ -215,106 +215,105 @@ export function PriceCalculator() {
         </Button>
       </div>
 
-      {/* Opsiyonel: Ek Hizmetler Butonu */}
-      <button
-        onClick={() => setIsDetailsOpen(!isDetailsOpen)}
-        className="w-full py-3 px-4 text-gray-600 flex items-center justify-center gap-2 hover:text-primary transition-colors"
-      >
-        <span>Ek Hizmetleri Göster</span>
-        {isDetailsOpen ? <ChevronUp /> : <ChevronDown />}
-      </button>
-
-      {/* Ek Hizmetler Paneli */}
-      {isDetailsOpen && (
-        <div className="border rounded-lg p-4 space-y-4">
-          {/* Şehir ve İlçe Seçimi */}
-          <div className="grid md:grid-cols-2 gap-3">
-            <div className="animate-slide-in" style={{ animationDelay: '100ms' }}>
-              <label className="block text-sm font-medium mb-2 text-gray-600">Şehir</label>
-              <Select value={city} onValueChange={setCity}>
-                <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
-                  <SelectValue placeholder="Şehir seçin" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="İstanbul">İstanbul</SelectItem>
-                </SelectContent>
-              </Select>
+      {/* Ek Hizmetler - Renkli ve Dikkat Çekici Buton */}
+      <div>
+        <button
+          onClick={() => setIsExtraServicesOpen(!isExtraServicesOpen)}
+          className="w-full group relative overflow-hidden rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 
+            hover:from-blue-600 hover:to-blue-700 transition-all duration-300"
+        >
+          <div className="px-4 py-3 flex items-center justify-between text-white">
+            <div className="flex items-center gap-2">
+              <span className="text-lg">✨</span>
+              <span className="font-medium">Ek Hizmetleri Göster</span>
             </div>
-
-            <div className="animate-slide-in" style={{ animationDelay: '200ms' }}>
-              <label className="block text-sm font-medium mb-2 text-gray-600">İlçe</label>
-              <Select value={district} onValueChange={setDistrict}>
-                <SelectTrigger className="bg-white border-2 hover:border-primary transition-colors">
-                  <SelectValue placeholder="İlçe seçin" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="Ataşehir (Batı)">Ataşehir (Batı)</SelectItem>
-                </SelectContent>
-              </Select>
+            <div className="flex items-center gap-2">
+              <span className="text-sm opacity-90">Özel İndirimler</span>
+              {isExtraServicesOpen ? 
+                <ChevronUp className="w-5 h-5 transition-transform duration-300" /> : 
+                <ChevronDown className="w-5 h-5 transition-transform duration-300" />
+              }
             </div>
           </div>
-
-          {/* Ek Hizmetler - Açılır/Kapanır */}
-          <div>
-            <button
-              onClick={() => setIsExtraServicesOpen(!isExtraServicesOpen)}
-              className="w-full p-3 flex items-center justify-between bg-white rounded-md shadow-sm"
-            >
-              <span className="font-medium">Ek Hizmetler</span>
-              {isExtraServicesOpen ? <ChevronUp /> : <ChevronDown />}
-            </button>
-            
-            {isExtraServicesOpen && (
-              <div className="mt-2 space-y-2">
-                {extraServices.map((service) => (
-                  <div key={service.id} 
-                    className="flex items-center space-x-2 p-2 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow">
-                    <Checkbox
-                      id={service.id}
-                      checked={selectedExtras.includes(service.id)}
-                      onCheckedChange={(checked) => handleCheckboxChange(checked as boolean, service.id)}
-                      className="border-2"
-                    />
-                    <label htmlFor={service.id} className="flex justify-between w-full text-sm cursor-pointer">
-                      <span className="font-medium text-gray-700">{service.name}</span>
-                      <span className="text-primary font-medium">+{service.price} TL</span>
-                    </label>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Promosyon Kodu */}
-          <div className="mt-3">
-            <label className="block text-sm font-semibold text-gray-800 mb-2">
-              Promosyon Kodu
-            </label>
-            <div className="mt-1 flex">
-              <input
-                type="text"
-                name="promo"
-                id="promo"
-                className="block w-full rounded-l-md border-2 border-gray-300 px-4 py-2 
-                focus:border-blue-500 focus:ring-blue-500 sm:text-sm transition-all 
-                placeholder:text-gray-400 hover:border-gray-400"
-                placeholder="Promosyon kodunuz varsa giriniz"
-                value={promoCode}
-                onChange={(e) => setPromoCode(e.target.value)}
-              />
-              <button
-                onClick={applyPromoCode}
-                className="ml-[-2px] px-6 py-2 bg-blue-600 text-white font-medium 
-                rounded-r-md border-2 border-blue-600 hover:bg-blue-700 
-                hover:border-blue-700 transition-all focus:outline-none 
-                focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          {/* Animasyonlu arka plan efekti */}
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-transparent 
+            group-hover:translate-x-full transition-transform duration-500" />
+        </button>
+        
+        {isExtraServicesOpen && (
+          <div className="mt-3 space-y-2 animate-slideDown">
+            {extraServices.map((service) => (
+              <div key={service.id} 
+                className="flex items-center space-x-2 p-3 bg-white/80 backdrop-blur-sm 
+                  rounded-lg border border-blue-100 hover:border-blue-300 
+                  hover:bg-blue-50/50 transition-all duration-200"
               >
-                Uygula
-              </button>
-            </div>
+                <Checkbox
+                  id={service.id}
+                  checked={selectedExtras.includes(service.id)}
+                  onCheckedChange={(checked) => handleCheckboxChange(checked as boolean, service.id)}
+                  className="border-2 border-blue-200"
+                />
+                <label htmlFor={service.id} 
+                  className="flex justify-between w-full text-sm cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className="font-medium text-gray-700">{service.name}</span>
+                  </div>
+                  <span className="text-blue-600 font-medium">+{service.price} TL</span>
+                </label>
+              </div>
+            ))}
           </div>
+        )}
+      </div>
+
+      {/* Promosyon Kodu */}
+      <div className="mt-3">
+        <label className="block text-sm font-semibold text-gray-800 mb-2">
+          Promosyon Kodu
+        </label>
+        <div className="mt-1 flex">
+          <input
+            type="text"
+            name="promo"
+            id="promo"
+            className="block w-full rounded-l-md border-2 border-gray-300 px-4 py-2 
+            focus:border-blue-500 focus:ring-blue-500 sm:text-sm transition-all 
+            placeholder:text-gray-400 hover:border-gray-400"
+            placeholder="Promosyon kodunuz varsa giriniz"
+            value={promoCode}
+            onChange={(e) => setPromoCode(e.target.value)}
+          />
+          <button
+            onClick={applyPromoCode}
+            className="ml-[-2px] px-6 py-2 bg-blue-600 text-white font-medium 
+            rounded-r-md border-2 border-blue-600 hover:bg-blue-700 
+            hover:border-blue-700 transition-all focus:outline-none 
+            focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            Uygula
+          </button>
         </div>
-      )}
+      </div>
     </div>
   )
-} 
+}
+
+// CSS animasyonu için globals.css'e ekleyin
+/*
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out forwards;
+}
+*/ 
