@@ -130,9 +130,10 @@ export function PriceCalculator() {
 
   return (
     <div className="max-w-3xl mx-auto space-y-6">
-      {/* Ana Fiyat Seçimi */}
-      <div className="border-2 border-blue-200 rounded-lg p-4 bg-white shadow-md">
-        <h3 className="text-lg font-bold text-gray-900 mb-3">
+      {/* Saat Seçimi - Daha modern tasarım */}
+      <div className="bg-gradient-to-br from-white to-blue-50/50 rounded-lg p-5 border border-blue-100">
+        <h3 className="text-base font-semibold text-gray-800 mb-4 flex items-center gap-2">
+          <span className="text-blue-600">⏱️</span>
           1. Kaç Saat Temizlik Hizmeti İstiyorsunuz?
         </h3>
         
@@ -142,18 +143,22 @@ export function PriceCalculator() {
               key={item.hours}
               onClick={() => setHours(item.hours)}
               className={`
-                p-3 cursor-pointer rounded-md transition-all duration-300
-                border-2 ${hours === item.hours 
-                  ? 'border-primary bg-primary/5 shadow-md scale-105' 
-                  : 'border-gray-200 hover:border-primary/50'
+                p-3 cursor-pointer rounded-lg transition-all duration-300
+                ${hours === item.hours 
+                  ? 'bg-blue-600 text-white shadow-md scale-[1.02]' 
+                  : 'bg-white border border-blue-100 hover:border-blue-300'
                 }
               `}
             >
               <div className="text-center">
-                <div className="text-base font-bold mb-0.5">{item.hours} SAAT</div>
-                <div className="text-xl font-bold text-primary">₺{item.price}</div>
+                <div className="text-sm font-medium mb-0.5">{item.hours} SAAT</div>
+                <div className={`text-lg font-bold ${hours === item.hours ? 'text-white' : 'text-blue-600'}`}>
+                  ₺{item.price}
+                </div>
                 {item.note && (
-                  <div className="text-xs text-emerald-600 mt-0.5">{item.note}</div>
+                  <div className={`text-xs mt-0.5 ${hours === item.hours ? 'text-blue-100' : 'text-emerald-600'}`}>
+                    {item.note}
+                  </div>
                 )}
               </div>
             </div>
@@ -161,33 +166,36 @@ export function PriceCalculator() {
         </div>
       </div>
 
-      {/* Sıklık Seçimi */}
-      <div className="border-2 border-blue-200 rounded-lg p-4 bg-white">
-        <h3 className="text-lg font-bold text-gray-900 mb-3">
+      {/* Sıklık Seçimi - Modern tasarım */}
+      <div className="bg-gradient-to-br from-white to-blue-50/50 rounded-lg p-5 border border-blue-100">
+        <h3 className="text-base font-semibold text-gray-800 mb-4 flex items-center gap-2">
+          <span className="text-blue-600">🔄</span>
           2. Temizlik Sıklığını Seçin
         </h3>
         
         <div className="grid md:grid-cols-3 gap-3">
           {[
-            { id: "single", label: "TEK SEFERLİK", discount: null },
-            { id: "weekly", label: "HAFTALIK", discount: 15 },
-            { id: "monthly", label: "AYLIK", discount: 25 }
+            { id: "single", label: "TEK SEFERLİK", discount: null, icon: "🎯" },
+            { id: "weekly", label: "HAFTALIK", discount: 15, icon: "📅" },
+            { id: "monthly", label: "AYLIK", discount: 25, icon: "📆" }
           ].map((option) => (
             <div
               key={option.id}
               onClick={() => setFrequency(option.id as FrequencyType)}
               className={`
-                p-3 cursor-pointer rounded-md text-center
-                border-2 transition-all duration-300
+                p-4 cursor-pointer rounded-lg text-center transition-all duration-300
                 ${frequency === option.id 
-                  ? 'border-primary bg-primary/5 shadow-md' 
-                  : 'border-gray-200 hover:border-primary/50'
+                  ? 'bg-blue-600 text-white shadow-md scale-[1.02]' 
+                  : 'bg-white border border-blue-100 hover:border-blue-300'
                 }
               `}
             >
-              <div className="font-bold text-base">{option.label}</div>
+              <div className="text-2xl mb-2">{option.icon}</div>
+              <div className="font-medium text-sm">{option.label}</div>
               {option.discount && (
-                <div className="text-emerald-600 font-medium mt-0.5">
+                <div className={`text-sm font-medium mt-1 ${
+                  frequency === option.id ? 'text-blue-100' : 'text-emerald-600'
+                }`}>
                   %{option.discount} İndirim
                 </div>
               )}
@@ -196,23 +204,26 @@ export function PriceCalculator() {
         </div>
       </div>
 
-      {/* Toplam Fiyat ve Devam Butonu */}
-      <div className="bg-blue-50 rounded-lg p-4 flex items-center justify-between">
-        <div>
-          <div className="text-2xl font-bold text-primary">
-            {calculatePrice().toLocaleString("tr-TR")} TL
+      {/* Toplam Fiyat - Modern tasarım */}
+      <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-5 text-white">
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-sm font-medium text-blue-100 mb-1">Toplam Tutar</div>
+            <div className="text-3xl font-bold">
+              {calculatePrice().toLocaleString("tr-TR")} TL
+            </div>
+            <div className="text-blue-100 text-sm mt-1">
+              {frequency !== "single" && `${frequency === "weekly" ? "Haftalık" : "Aylık"} ücret`}
+            </div>
           </div>
-          <div className="text-gray-600 mt-0.5">
-            {frequency !== "single" && `${frequency === "weekly" ? "Haftalık" : "Aylık"} ücret`}
-          </div>
+          
+          <Button 
+            size="lg"
+            className="bg-white text-blue-600 hover:bg-blue-50 px-8"
+          >
+            DEVAM ET
+          </Button>
         </div>
-        
-        <Button 
-          size="lg"
-          className="bg-primary hover:bg-primary/90 text-white px-8"
-        >
-          DEVAM ET
-        </Button>
       </div>
 
       {/* Ek Hizmetler - Renkli ve Dikkat Çekici Buton */}
