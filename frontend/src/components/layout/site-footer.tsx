@@ -11,7 +11,17 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Logo ve Açıklama */}
           <div className="space-y-2">
-            <h2 className="text-xl font-bold text-white">
+            <h2 className="
+              text-lg            // Mobil: Küçük başlık
+              font-bold 
+              mb-4
+              
+              sm:text-xl         // Tablet: Orta başlık
+              sm:mb-6
+              
+              lg:text-2xl        // Desktop: Büyük başlık
+              lg:mb-8
+            ">
               PeraHizmet
             </h2>
             <p className="text-white/80 text-xs">

@@ -93,20 +93,24 @@ const cleaningServices = [
 // Ofise özel SSS
 const faqs = [
   {
-    question: "Mesai saatleri dışında temizlik yapıyor musunuz?",
-    answer: "Evet, ofislerinizin iş akışını etkilememek için mesai saatleri dışında hizmet veriyoruz."
+    question: "Minimum kaç metrekare için hizmet veriyorsunuz?",
+    answer: "50 metrekare ve üzeri ofis alanları için hizmet veriyoruz."
   },
   {
-    question: "Düzenli temizlik anlaşması yapabilir miyiz?",
-    answer: "Evet, günlük, haftalık veya aylık periyotlarda düzenli temizlik hizmeti sunuyoruz. Düzenli hizmet alımlarında özel indirimler uyguluyoruz."
+    question: "Temizlik hangi saatlerde yapılıyor?",
+    answer: "Mesai saatleri dışında (akşam/gece) veya hafta sonu temizlik hizmeti sunuyoruz. İşyerinizin çalışma düzenine göre program oluşturuyoruz."
   },
   {
-    question: "Özel ekipman gerektiren temizlikler yapıyor musunuz?",
-    answer: "Evet, yüksek tavanlı ofisler ve özel alanlara uygun ekipmanlarımızla profesyonel temizlik hizmeti veriyoruz."
+    question: "Düzenli temizlik için sözleşme gerekli mi?",
+    answer: "Düzenli temizlik hizmetleri için aylık veya yıllık sözleşme yapıyoruz. Bu sayede size özel indirimli fiyatlar sunabiliyoruz."
   },
   {
-    question: "Acil temizlik ihtiyacında ne yapmalıyım?",
-    answer: "Müşteri hizmetlerimizi arayarak acil temizlik talebinde bulunabilirsiniz."
+    question: "Temizlik ekibiniz sigortalı mı?",
+    answer: "Tüm ekibimiz sigortalı ve güvenlik soruşturmasından geçmiş profesyonellerden oluşmaktadır."
+  },
+  {
+    question: "Hangi temizlik malzemeleri kullanılıyor?",
+    answer: "Profesyonel, çevre dostu ve sertifikalı temizlik ürünleri kullanıyoruz. İsteğe bağlı olarak anti-alerjik ürünler de tercih edilebilir."
   }
 ];
 
@@ -217,6 +221,8 @@ const serviceJsonLd = {
 
 export default function OfisTemizligi() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [activeTab, setActiveTab] = useState('genel');
+  const [expandedItems, setExpandedItems] = useState<Set<number>>(new Set());
 
   return (
     <main role="main" aria-label="Ofis Temizliği Sayfası">
@@ -288,209 +294,177 @@ export default function OfisTemizligi() {
       </section>
 
       {/* Hizmet Kapsamı */}
-      <section aria-label="Hizmet Kapsamı" className="py-16">
+      <section className="py-8">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-2xl font-bold text-center mb-6">
             Ofis Temizliği Hizmet Kapsamı
           </h2>
-          <Tabs defaultValue="genel" className="w-full">
-            <TabsList className="flex flex-wrap md:flex-nowrap gap-4 mb-8 w-full bg-transparent">
+
+          {/* Mobil uyumlu tab menüsü */}
+          <div className="flex overflow-x-auto scrollbar-hide -mx-4 px-4 pb-4 mb-6">
+            <div className="flex gap-2 mx-auto min-w-max">
               {[
-                { value: "genel", label: "Genel Bilgi", icon: "📋" },
-                { value: "odalar", label: "Alanlar", icon: "🏢" },
-                { value: "bolgeler", label: "Bölgeler", icon: "📍" },
-                { value: "sss", label: "SSS", icon: "❓" }
+                { id: 'genel', label: 'Genel Bilgi', icon: '📋' },
+                { id: 'alanlar', label: 'Alanlar', icon: '🏢' },
+                { id: 'bolgeler', label: 'Bölgeler', icon: '📍' },
+                { id: 'sss', label: 'SSS', icon: '❓' }
               ].map((tab) => (
-                <TabsTrigger
-                  key={tab.value}
-                  value={tab.value}
-                  className="flex-1 min-w-[200px]"
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`
+                    flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-medium
+                    whitespace-nowrap transition-all
+                    ${activeTab === tab.id 
+                      ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/20' 
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    }
+                  `}
                 >
-                  <div className="flex flex-col items-center gap-3">
-                    <span className="text-3xl">{tab.icon}</span>
-                    <span className="text-lg font-semibold">{tab.label}</span>
-                  </div>
-                </TabsTrigger>
+                  <span>{tab.icon}</span>
+                  <span>{tab.label}</span>
+                </button>
               ))}
-            </TabsList>
+            </div>
+          </div>
 
-            <TabsContent value="genel">
-              <Card className="p-8">
-                <h3 className="text-2xl font-bold mb-6">Ofis Temizliği Hakkında</h3>
-                <div className="space-y-6">
-                  <p className="text-gray-700 leading-relaxed">
-                    PeraHizmet olarak, işletmenizin ihtiyaçlarına özel profesyonel ofis temizlik hizmetleri sunuyoruz. 
-                    Deneyimli ekibimiz ve modern ekipmanlarımızla, ofisinizi her zaman temiz ve düzenli tutuyoruz.
+          {/* Tab içerikleri */}
+          <div className="space-y-6">
+            {/* Genel Bilgi */}
+            {activeTab === 'genel' && (
+              <div className="bg-white rounded-xl p-4 md:p-6 shadow-sm">
+                <div className="prose max-w-none">
+                  <h3 className="text-lg font-semibold mb-4">Ofis Temizliği Hakkında</h3>
+                  <p className="text-gray-600 mb-6">
+                    PeraHizmet olarak, işletmenizin ihtiyaçlarına özel profesyonel ofis temizlik hizmetleri sunuyoruz.
                   </p>
-
-                  <div className="grid md:grid-cols-2 gap-8 mt-8">
-                    <div className="bg-blue-50 p-6 rounded-xl">
-                      <h4 className="text-lg font-semibold mb-4">Standart Temizlik Paketi</h4>
-                      <ul className="space-y-3">
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Tüm ofis alanlarının genel temizliği</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Çalışma masaları ve mobilyaların temizliği</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Zemin temizliği ve vakumlama</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Çöp kovalarının boşaltılması</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Mutfak ve lavabo temizliği</span>
-                        </li>
+                  
+                  {/* Paketler */}
+                  <div className="grid gap-4">
+                    {/* Standart Paket */}
+                    <div className="bg-gray-50 rounded-lg p-4">
+                      <h4 className="font-medium text-blue-600 mb-3">Standart Temizlik Paketi</h4>
+                      <ul className="grid gap-2">
+                        {[
+                          "Tüm ofis alanlarının genel temizliği",
+                          "Çalışma masaları ve mobilyaların temizliği",
+                          "Zemin temizliği ve vakumlama",
+                          "Çöp kovalarının boşaltılması",
+                          "Mutfak ve lavabo temizliği"
+                        ].map((item, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
+                            <span className="text-blue-500 mt-1">•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
                       </ul>
                     </div>
 
-                    <div className="bg-blue-50 p-6 rounded-xl">
-                      <h4 className="text-lg font-semibold mb-4">Detaylı Temizlik Paketi</h4>
-                      <ul className="space-y-3">
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Standart temizlik paketinin tüm hizmetleri</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Cam ve çerçevelerin detaylı temizliği</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Halı ve koltuk yıkama</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Derin dezenfeksiyon işlemi</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span>Mobilya cilalama ve bakım</span>
-                        </li>
+                    {/* Detaylı Paket */}
+                    <div className="bg-blue-50 rounded-lg p-4">
+                      <h4 className="font-medium text-blue-600 mb-3">Detaylı Temizlik Paketi</h4>
+                      <ul className="grid gap-2">
+                        {[
+                          "Standart temizlik paketi hizmetleri",
+                          "Cam ve çerçevelerin detaylı temizliği",
+                          "Koltuk ve sandalye yıkama",
+                          "Halı ve zemin yıkama",
+                          "Derin dezenfeksiyon işlemi"
+                        ].map((item, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
+                            <span className="text-blue-500 mt-1">•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
                       </ul>
                     </div>
-                  </div>
-
-                  <div className="mt-8">
-                    <h4 className="text-lg font-semibold mb-4">Neden PeraHizmet?</h4>
-                    <div className="grid md:grid-cols-3 gap-6">
-                      <div className="p-4 border border-gray-100 rounded-lg">
-                        <h5 className="font-medium mb-2">Profesyonel Ekip</h5>
-                        <p className="text-sm text-gray-600">
-                          Deneyimli ve uzman temizlik personelimizle kaliteli hizmet sunuyoruz.
-                        </p>
-                      </div>
-                      <div className="p-4 border border-gray-100 rounded-lg">
-                        <h5 className="font-medium mb-2">Modern Ekipman</h5>
-                        <p className="text-sm text-gray-600">
-                          Son teknoloji temizlik ekipmanlarıyla etkili sonuçlar elde ediyoruz.
-                        </p>
-                      </div>
-                      <div className="p-4 border border-gray-100 rounded-lg">
-                        <h5 className="font-medium mb-2">Uygun Fiyat</h5>
-                        <p className="text-sm text-gray-600">
-                          Rekabetçi fiyatlarla kaliteli temizlik hizmeti sağlıyoruz.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-xl mt-8">
-                    <h4 className="text-lg font-semibold mb-4">Hizmet Süreci</h4>
-                    <ol className="space-y-4">
-                      <li className="flex items-start gap-3">
-                        <span className="font-bold text-primary">1.</span>
-                        <p className="text-gray-700">Ofis alanınızı inceleriz ve ihtiyaçlarınızı belirleriz</p>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="font-bold text-primary">2.</span>
-                        <p className="text-gray-700">Size özel temizlik planı ve fiyat teklifi hazırlarız</p>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="font-bold text-primary">3.</span>
-                        <p className="text-gray-700">Belirlenen gün ve saatte temizlik hizmetini gerçekleştiririz</p>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="font-bold text-primary">4.</span>
-                        <p className="text-gray-700">Hizmet sonrası memnuniyet kontrolü yaparız</p>
-                      </li>
-                    </ol>
                   </div>
                 </div>
-              </Card>
-            </TabsContent>
+              </div>
+            )}
 
-            <TabsContent value="odalar">
+            {/* Alanlar */}
+            {activeTab === 'alanlar' && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {cleaningServices.map((service) => (
-                  <div 
-                    key={service.title} 
-                    className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg 
-                      transition-all duration-300 border border-gray-100"
-                  >
-                    <div className="flex items-start gap-3 mb-3">
-                      <span className="text-2xl">{service.icon}</span>
-                      <div>
-                        <h3 className="text-base font-semibold text-gray-900">{service.title}</h3>
-                        <p className="text-sm text-gray-600">{service.description}</p>
-                      </div>
-                    </div>
+                {[
+                  { title: "Ofis Alanları", items: ["Çalışma Masaları", "Toplantı Odaları", "Ortak Alanlar"] },
+                  { title: "Mutfak", items: ["Tezgah", "Dolap", "Elektrikli Aletler"] },
+                  { title: "Lavabolar", items: ["Tuvalet", "Lavabo", "Aynalar"] },
+                  { title: "Giriş ve Koridorlar", items: ["Resepsiyon", "Bekleme Alanı", "Koridorlar"] }
+                ].map((alan, idx) => (
+                  <div key={idx} className="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 className="font-medium text-gray-900 mb-3">{alan.title}</h3>
                     <ul className="space-y-2">
-                      {service.details.map((detail, idx) => (
-                        <li key={idx} className="flex items-center text-sm text-gray-700">
-                          <span className="w-4 h-4 mr-2 text-primary">•</span>
-                          {detail}
+                      {alan.items.map((item, i) => (
+                        <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                          <span>{item}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
                 ))}
               </div>
-            </TabsContent>
+            )}
 
-            <TabsContent value="bolgeler">
-              <div className="grid md:grid-cols-3 gap-6">
+            {/* Bölgeler */}
+            {activeTab === 'bolgeler' && (
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {[
                   "Levent", "Maslak", "Şişli",
                   "Kadıköy", "Ataşehir", "Ümraniye",
                   "Beylikdüzü", "Bakırköy", "Beşiktaş"
                 ].map((bolge) => (
-                  <div 
-                    key={bolge} 
-                    className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all"
-                  >
-                    <h3 className="font-semibold text-lg mb-2">{bolge}</h3>
-                    <p className="text-gray-600">
-                      {bolge} ve çevresinde profesyonel ofis temizlik hizmeti
-                    </p>
+                  <div key={bolge} className="bg-white p-3 rounded-lg text-center">
+                    <p className="font-medium text-gray-900">{bolge}</p>
                   </div>
                 ))}
               </div>
-            </TabsContent>
+            )}
 
-            <TabsContent value="sss">
+            {/* SSS */}
+            {activeTab === 'sss' && (
               <div className="max-w-3xl mx-auto">
-                <Accordion type="single" collapsible className="w-full space-y-4">
-                  {faqs.map((faq, index) => (
-                    <AccordionItem key={index} value={`item-${index}`}>
-                      <AccordionTrigger className="text-left">
-                        {faq.question}
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        {faq.answer}
-                      </AccordionContent>
-                    </AccordionItem>
+                <div className="divide-y divide-gray-200">
+                  {faqs.map((faq, idx) => (
+                    <div 
+                      key={idx}
+                      className="py-4 cursor-pointer group"
+                      onClick={() => {
+                        const newExpandedItems = new Set(expandedItems);
+                        if (newExpandedItems.has(idx)) {
+                          newExpandedItems.delete(idx);
+                        } else {
+                          newExpandedItems.add(idx);
+                        }
+                        setExpandedItems(newExpandedItems);
+                      }}
+                    >
+                      <div className="flex justify-between items-center gap-4">
+                        <h3 className="text-base font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                          {faq.question}
+                        </h3>
+                        <span className={`
+                          text-gray-400 transition-transform duration-200
+                          ${expandedItems.has(idx) ? 'rotate-180' : ''}
+                        `}>
+                          ▼
+                        </span>
+                      </div>
+                      
+                      {/* Cevap - Açılır/Kapanır Panel */}
+                      <div className={`
+                        mt-2 text-sm text-gray-600 leading-relaxed overflow-hidden transition-all duration-200
+                        ${expandedItems.has(idx) ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}
+                      `}>
+                        <p className="py-2">{faq.answer}</p>
+                      </div>
+                    </div>
                   ))}
-                </Accordion>
+                </div>
               </div>
-            </TabsContent>
-          </Tabs>
+            )}
+          </div>
         </div>
       </section>
 
