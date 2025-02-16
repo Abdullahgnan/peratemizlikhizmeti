@@ -81,30 +81,87 @@ const faqs: FAQ[] = [
 export default function EvTemizligiPage() {
   return (
     <main className="container mx-auto px-4">
-      {/* Hero Section - Daha kısa */}
-      <section className="pt-24 pb-8 bg-gradient-to-b from-blue-50 to-white">
+      {/* Hero Section - Daha etkileyici */}
+      <section className="pt-24 pb-12 bg-gradient-to-br from-blue-50 via-white to-blue-50">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            {/* Sol Taraf - Metin */}
-            <div className="space-y-4">
-              <h1 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                Profesyonel Ev Temizlik Hizmeti
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Sol Taraf - Daha etkileyici metin ve özellikler */}
+            <div className="space-y-6">
+              <div className="inline-block px-4 py-2 bg-blue-100 rounded-full text-blue-700 font-medium text-sm mb-2">
+                %100 Müşteri Memnuniyeti 🌟
+              </div>
+              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                Eviniz İçin <span className="text-blue-600">Profesyonel</span> Temizlik Hizmeti
               </h1>
-              <p className="text-lg text-gray-600">
-                Uzman ekibimizle evinizi baştan aşağı temizliyor, 
-                siz değerli vaktinizi sevdiklerinizle geçiriyorsunuz.
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Deneyimli ekibimizle evinizi pırıl pırıl yapıyor, size temiz ve ferah bir yaşam alanı sunuyoruz.
               </p>
+
+              {/* Öne Çıkan Özellikler */}
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <span className="text-2xl">⚡</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Hızlı Hizmet</h3>
+                    <p className="text-sm text-gray-600">Aynı gün temizlik</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-2xl">🏆</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Garantili</h3>
+                    <p className="text-sm text-gray-600">%100 Memnuniyet</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA Butonları */}
+              <div className="flex flex-wrap gap-4 mt-8">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6">
+                  Hemen Fiyat Al
+                </Button>
+                <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+                  Detaylı Bilgi
+                </Button>
+              </div>
+
+              {/* Güven Göstergeleri */}
+              <div className="flex items-center gap-6 mt-8 text-gray-600">
+                <div className="flex items-center gap-2">
+                  <span className="text-yellow-400 text-xl">⭐</span>
+                  <span className="font-medium">4.9/5</span>
+                  <span className="text-sm">(500+ Değerlendirme)</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-green-500 text-xl">✓</span>
+                  <span className="text-sm font-medium">1000+ Mutlu Müşteri</span>
+                </div>
+              </div>
             </div>
             
             {/* Sağ Taraf - Görsel */}
-            <div className="relative h-[300px]">
+            <div className="relative h-[500px] lg:h-[600px]">
               <Image
                 src="/images/ev-temizligi-hero.jpg"
                 alt="Profesyonel ev temizlik hizmeti"
                 fill
-                className="object-cover rounded-xl shadow-lg"
+                className="object-cover rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-300"
                 priority
               />
+              {/* Overlay Badge */}
+              <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 flex items-center gap-3">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="text-2xl">💎</span>
+                </div>
+                <div>
+                  <p className="font-bold text-lg">Özel Fiyatlar</p>
+                  <p className="text-blue-600">%25'e varan indirim</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
