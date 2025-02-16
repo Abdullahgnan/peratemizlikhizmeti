@@ -15,12 +15,15 @@ export default function BosEvTemizligi() {
 
   return (
     <main role="main" aria-label="Boş Ev Temizliği Sayfası">
-      {/* Hero Section */}
-      <section className="pt-12 pb-3">
+      {/* Header ile içerik arası boşluk - azaltıldı */}
+      <div className="h-16" /> {/* 64px'e düşürdük */}
+
+      {/* Hero Section - padding azaltıldı */}
+      <section className="pt-8 pb-3"> {/* pt-12'den pt-8'e düşürdük */}
         <div className="container mx-auto px-3">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
-            {/* Sol Taraf - Ana Bilgiler */}
-            <div className="space-y-8 bg-transparent pt-8">
+            {/* Sol Taraf - padding azaltıldı */}
+            <div className="space-y-8 bg-transparent pt-4"> {/* pt-8'den pt-4'e düşürdük */}
               {/* Üst Başlık */}
               <div className="space-y-2">
                 <p className="text-blue-500 font-medium tracking-wide text-sm uppercase">
@@ -66,7 +69,7 @@ export default function BosEvTemizligi() {
             </div>
 
             {/* Sağ Taraf - Görsel */}
-            <div className="relative w-full h-[480px] -mt-12">
+            <div className="relative w-full h-[480px] mt-8 lg:mt-0">
               <Image
                 src="/images/bos-ev-temizligi-hero.jpg"
                 alt="Profesyonel boş ev temizlik hizmeti"
