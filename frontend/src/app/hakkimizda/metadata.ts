@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Hakkımızda - PeraHizmet Temizlik Şirketi",
   description: "2020'den beri İstanbul'da profesyonel temizlik hizmetleri sunuyoruz. Deneyimli ekip, modern ekipman ve müşteri memnuniyeti odaklı hizmet.",
   keywords: [
@@ -26,7 +26,7 @@ export const metadata = {
   alternates: {
     canonical: 'https://perahizmet.com/hakkimizda'
   }
-}
+};
 
 export const breadcrumbJsonLd = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ export const breadcrumbJsonLd = {
       "item": "https://perahizmet.com/hakkimizda"
     }
   ]
-}
+};
 
 export const reviewJsonLd = {
   "@context": "https://schema.org",
@@ -56,4 +56,30 @@ export const reviewJsonLd = {
   },
   "ratingValue": "4.8",
   "reviewCount": "150"
-} 
+};
+
+export const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PeraHizmet",
+  "url": "https://perahizmet.com",
+  "logo": "https://perahizmet.com/logo.png",
+  "description": "2020'den beri İstanbul'da profesyonel temizlik hizmetleri sunuyoruz.",
+  "foundingDate": "2020",
+  "founders": [{
+    "@type": "Person",
+    "name": "PeraHizmet Kurucusu"
+  }],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "İstanbul",
+    "addressCountry": "TR"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+905435819688",
+    "contactType": "customer service",
+    "areaServed": "İstanbul",
+    "availableLanguage": "Turkish"
+  }
+}; 
