@@ -121,11 +121,7 @@ export default function EvTemizligiPage() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Sol Taraf - Ana Bilgiler */}
               <div className="space-y-6 bg-transparent">
-                {/* Üst Badge */}
-                <div className="inline-block px-3 py-1.5 bg-blue-100/50 backdrop-blur-sm rounded-full text-blue-700 text-sm">
-                  ⭐ 4.9/5 (500+ Değerlendirme)
-                </div>
-
+            
                 {/* Ana Başlık */}
                 <div className="space-y-3">
                   <h1 className="text-3xl font-bold text-gray-900">
@@ -426,13 +422,7 @@ export default function EvTemizligiPage() {
           </div>
         </section>
 
-        {/* Detaylı Bilgi Bölümü */}
-        <section id="detayli-bilgi" className="scroll-mt-20 pt-20">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-6">Detaylı Bilgi</h2>
-            {/* Detaylı bilgi içeriği */}
-          </div>
-        </section>
+
       </div>
     </main>
   )
