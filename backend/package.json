@@ -1,13 +1,12 @@
 {
   "name": "pera-hizmet",
   "private": true,
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace=frontend\" \"npm run dev --workspace=backend\"",
-    "build": "npm run build --workspaces"
+    "dev": "nodemon src/index.ts",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build && cd ../backend && npm run build",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -26,4 +25,3 @@
     "pg": "^8.13.1"
   }
 }
-

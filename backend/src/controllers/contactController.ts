@@ -1,7 +1,7 @@
-import { Request, Response } from 'express';
+import { Request, Response, RequestHandler } from 'express';
 import { pool } from '../config/db';
 
-export const createContact = async (req: Request, res: Response) => {
+export const createContact: RequestHandler = async (req: Request, res: Response) => {
   try {
     const { name, email, phone, message } = req.body;
 

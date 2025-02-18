@@ -1,13 +1,12 @@
 {
   "name": "pera-hizmet",
   "private": true,
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace=frontend\" \"npm run dev --workspace=backend\"",
-    "build": "npm run build --workspaces"
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build && cd ../backend && npm run build",
+    "start": "cd frontend && npm start && cd ../backend && npm start"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -24,13 +23,5 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "pg": "^8.13.1"
-  },
-  "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "target": "es6",
-    "module": "commonjs"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  }
 }
