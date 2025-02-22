@@ -1,9 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import { config } from 'dotenv';
+import { json } from 'body-parser';
 import contactRoutes from './routes/contactRoutes';
-
-config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -14,7 +12,8 @@ app.use(cors({
   methods: ['GET', 'POST'],
   credentials: true,
 }));
-app.use(express.json());
+
+app.use(json());
 
 // Routes
 app.use('/api', contactRoutes);
