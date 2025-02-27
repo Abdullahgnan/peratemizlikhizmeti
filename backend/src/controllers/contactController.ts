@@ -1,16 +1,17 @@
 import { Request, Response, RequestHandler } from 'express';
 import { pool } from '../config/db';
 
-export const createContact: RequestHandler = async (req: Request, res: Response) => {
+export const createContact: RequestHandler = async (req: Request, res: Response): Promise<void> => {
   try {
     const { name, email, phone, message } = req.body;
 
     // Basit validasyon
     if (!name || !email || !message) {
-      return res.status(400).json({
+      res.status(400).json({
         success: false,
         message: 'Lütfen gerekli alanları doldurun'
       });
+      return;
     }
 
     const query = `

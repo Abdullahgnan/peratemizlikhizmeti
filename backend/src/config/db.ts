@@ -3,7 +3,7 @@ import { config } from 'dotenv';
 
 config(); // .env dosyasını yükle
 
-const pool = new Pool({
+export const pool = new Pool({
   user: process.env.DB_USER,
   host: process.env.DB_HOST,
   database: process.env.DB_DATABASE,
@@ -11,13 +11,7 @@ const pool = new Pool({
   port: Number(process.env.DB_PORT),
 });
 
-export { pool };
-
-// Bağlantıyı test et
-pool.connect((err, client, release) => {
-  if (err) {
-    return console.error('Veritabanına bağlanırken hata:', err.stack);
-  }
-  console.log('PostgreSQL veritabanına başarıyla bağlandı');
-  release();
-}); 
+// Veritabanı bağlantısını test et
+pool.connect()
+  .then(() => console.log('Veritabanına başarıyla bağlandı'))
+  .catch(err => console.error('Veritabanına bağlanırken hata:', err)); 

@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://peratemizlik.com', // Frontend domaininizi buraya ekleyin
+  origin: '*', // Tüm domainlerden gelen isteklere izin ver
   methods: ['GET', 'POST'],
   credentials: true,
 }));
