@@ -1,0 +1,594 @@
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:1885:18)
+    at rr (node:internal/cluster/child:162:12)
+    at Worker.<anonymous> (node:internal/cluster/child:112:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:529:35)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-09 13:20:52: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:21:07: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:22:20: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:22:41: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:27:29: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:27:43: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:28:20: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:28:26: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 13:42:14: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}
+2025-03-09 19:29:58: Hata: error: relation "contact_messages" does not exist
+    at /root/peratemizlikhizmeti/backend/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  length: 115,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '20',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1191',
+  routine: 'parserOpenTable'
+}

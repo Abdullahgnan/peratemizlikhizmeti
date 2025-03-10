@@ -16,10 +16,11 @@ const createContact = (req, res) => __awaiter(void 0, void 0, void 0, function* 
         const { name, email, phone, message } = req.body;
         // Basit validasyon
         if (!name || !email || !message) {
-            return res.status(400).json({
+            res.status(400).json({
                 success: false,
                 message: 'Lütfen gerekli alanları doldurun'
             });
+            return;
         }
         const query = `
       INSERT INTO contact_messages (name, email, phone, message)
