@@ -2447,3 +2447,1431 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 2025-03-10 16:53:39:  ⚠ Unsupported metadata viewport is configured in metadata export in /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:53:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:54:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:54:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:54:29:  ⚠ Unsupported metadata viewport is configured in metadata export in /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:54:35:  ⚠ Unsupported metadata viewport is configured in metadata export in /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 16:55:07:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 16:55:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:07:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 16:55:07:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 16:55:07:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 16:55:07:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 16:55:08:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:08:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 16:55:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:31:  ⚠ Unsupported metadata viewport is configured in metadata export in /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:55:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:56:00:  ⚠ Unsupported metadata viewport is configured in metadata export in /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:56:08:  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:56:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:56:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:56:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:57:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:57:12:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:57:20:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:57:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /public/index.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:58:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 16:58:12:  ⚠ Unsupported metadata viewport is configured in metadata export in /containers/json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:21:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:22:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/assets/js/views/login.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:42:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:45:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /libs/js/iframe.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:38:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 17:55:38:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 17:55:38:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 17:55:38:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 17:55:38:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 17:55:38:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 17:55:39:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:39:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 17:55:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:41:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 17:55:41:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 17:55:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 17:55:41:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 17:55:41:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 17:55:41:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 17:55:41:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 18:15:22:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 18:15:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:48:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 18:15:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:48:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 18:15:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:15:48:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 18:15:48:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 18:15:48:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 18:15:48:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 18:30:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.html. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:40:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /wordpress/wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:42:49:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:42:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /wordpress/wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 18:42:58:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:50:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:08:50:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:08:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:50:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:08:50:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:08:50:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:50:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:08:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:51:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 19:08:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/hukuk-partners.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:54:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:08:54:  ⨯ The requested resource isn't a valid image for /logos/hukuk-partners.png received text/html; charset=utf-8
+2025-03-10 19:08:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/e-ticaret-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:08:54:  ⨯ The requested resource isn't a valid image for /logos/e-ticaret-plus.png received text/html; charset=utf-8
+2025-03-10 19:38:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:16:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:38:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:16:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:38:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:16:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:38:16:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:38:16:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:38:16:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:38:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:17:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:38:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:17:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:38:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:17:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:38:17:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:38:17:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:38:17:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:38:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:22:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:38:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:22:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:38:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:22:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:38:22:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:38:22:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:38:22:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:38:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:24:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 19:38:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:34:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:38:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:34:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:38:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:38:34:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:38:34:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:38:34:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:38:34:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:42:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /cgi-bin/luci/;stok=/locale. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:44:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /hello.world. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:44:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:44:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:44:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /vendor/phpunit/src/Util/PHP/eval-stdin.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:21:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 19:54:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:40:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:54:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:40:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:54:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:54:40:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:54:40:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:54:40:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:54:40:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:55:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:24:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 19:55:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:51:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 19:55:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:55:51:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 19:55:51:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 19:55:51:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 19:55:51:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 19:55:51:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 19:56:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/hukuk-partners.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:56:03:  ⨯ The requested resource isn't a valid image for /logos/hukuk-partners.png received text/html; charset=utf-8
+2025-03-10 19:56:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/e-ticaret-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:56:03:  ⨯ The requested resource isn't a valid image for /logos/e-ticaret-plus.png received text/html; charset=utf-8
+2025-03-10 19:56:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/reklam-360.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:56:03:  ⨯ The requested resource isn't a valid image for /logos/reklam-360.png received text/html; charset=utf-8
+2025-03-10 19:56:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/mega-holding.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 19:56:03:  ⨯ The requested resource isn't a valid image for /logos/mega-holding.png received text/html; charset=utf-8
+2025-03-10 20:00:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /forgot.html. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:05:49:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:09:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /Home/SymbolNews. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:14:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:36:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 20:32:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:37:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:37:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 20:32:37:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:37:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 20:32:37:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 20:32:37:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 20:32:37:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 20:32:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:38:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 20:32:39:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:39:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 20:32:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:32:42:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 20:33:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:14:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 20:33:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:16:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 20:33:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:16:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 20:33:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:33:16:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 20:33:16:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 20:33:16:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 20:33:16:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 20:54:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-705a36460ae28efd.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 20:54:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-705a36460ae28efd.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:08:18:  ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+2025-03-10 21:10:10:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:10:10:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:10:12:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:10:12:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:13:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /core/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /lib/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/dev/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /data/processing/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /project/backend/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /backup/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /files/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /production/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /user_panel/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /config_files/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:13:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /data/staging/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:37:04:  ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+2025-03-10 21:37:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:37:04:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:37:25:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:37:25:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:39:12:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:39:12:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:39:13:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:39:13:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:39:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:39:14:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:39:59:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:39:59:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:39:59:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 21:39:59:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 21:40:00:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:00:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:00:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:00:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:00:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 21:40:00:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 21:40:00:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 21:40:00:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 21:40:00:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:00:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:40:02:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:02:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-10 21:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:15:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-10 21:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:15:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-10 21:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:40:15:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-10 21:40:15:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-10 21:40:15:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-10 21:40:15:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-10 21:47:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-50b0c8b206d6501e.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 21:47:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-50b0c8b206d6501e.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:35:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /Home/Trading. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:35:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-dc4ab25de5866078.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:35:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-dc4ab25de5866078.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:35:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /js/twint_ch.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:40:09:  ⚠ Unsupported metadata viewport is configured in metadata export in /js/twint_ch.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /php_info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.production. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /protected/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /php_info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /base/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.development. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /v2/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /database/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.yaml.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /package.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /conf/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /application-dev.properties. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /.AWS_/credentials. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /karma.conf.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config.php.save. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/config/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /backend/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/php.ini. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.save. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /db_config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /crm/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /laravel/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /system/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /.htaccess. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /cgi-bin/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /_profiler/phpinfo. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /server/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /old/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.production. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /protected/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /base/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.development. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /v2/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /database/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.yaml.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /package.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /conf/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /application-dev.properties. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /.AWS_/credentials. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:56:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /karma.conf.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:03:  ⚠ Unsupported metadata viewport is configured in metadata export in /resources/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /dev.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-content/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config.php.save. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/config/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /backend/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/php.ini. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.save. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /db_config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /crm/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /laravel/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /system/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /.htaccess. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.backup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /php.ini. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /web/app_dev.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /test. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /library/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /settings.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/env.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /db.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.php.save. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /cgi-bin/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /v1/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /_profiler/phpinfo. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /server/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.testing. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /old/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /info. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.old. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /public/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /app_dev.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /.aws/credentials. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.local. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /core/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /storage/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /phpinfo. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.properties. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/settings.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.html. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /settings/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /php_errors.log. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /db.php.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /database.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /src/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /adminer.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:16:  ⚠ Unsupported metadata viewport is configured in metadata export in /portal/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /env/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /dev/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env.local. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env.production. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env.staging. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /_phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /_profiler/phpinfo/info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /_profiler/phpinfo/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /aws-secret.yaml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /awstats/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /cron/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /www/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /docker/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /docker/app/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /env.backup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /xampp/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /lara/info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /lara/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /laravel/info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /.vscode/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /js/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /resources/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /dev.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-content/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:23:  ⚠ Unsupported metadata viewport is configured in metadata export in /phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.backup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /php.ini. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /web/app_dev.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /test. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /library/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /settings.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/env.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:33:  ⚠ Unsupported metadata viewport is configured in metadata export in /db.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:33:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.php.save. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:33:  ⚠ Unsupported metadata viewport is configured in metadata export in /v1/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.testing. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /info. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.old. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /public/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /app_dev.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /.aws/credentials. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.local. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /core/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /storage/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /phpinfo. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.properties. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/settings.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.html. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /settings/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /php_errors.log. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /db.php.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /database.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /src/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /adminer.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /portal/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /env/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /dev/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env.local. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env.production. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /new/.env.staging. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /_phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /_profiler/phpinfo/info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /_profiler/phpinfo/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /aws-secret.yaml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /awstats/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /cron/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /www/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /docker/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /docker/app/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /env.backup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /xampp/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /lara/info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /lara/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /laravel/info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /.vscode/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:47:  ⚠ Unsupported metadata viewport is configured in metadata export in /js/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /mail/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /mailer/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /nginx/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /site/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /xampp/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /main/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /node_modules/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /kyc/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /prod/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /website/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /development/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /service/email_service.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /node/.env_example. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:57:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.production.local. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.example. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:04:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.stage. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /server/config/database.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env_sample. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /scripts/nodemailer.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.prod. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /local/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /application/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /web/.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config.php.bak. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /static/js/main.141b0494.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /static/js/2.ca066a4b.chunk.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /static/js/main.e85f7a37.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/server_info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /server_info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /app_dev.php/_profiler/phpinfo. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /test.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /server-info. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /server-info.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /secured/phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /server.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /appsettings.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /shared/config/config.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:24:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/aws.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /settings.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /main.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/constants.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /application.properties. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /public/js/main.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /js/main.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /storage/logs/laravel.log. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /swagger.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /swagger.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /gatsby-config.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /backend/config/default.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:33:  ⚠ Unsupported metadata viewport is configured in metadata export in /app.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:33:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/controllers/merchant.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/controllers/partner.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /apis/config/config.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /apis/controllers/users.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /backend/config/development.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /cloud/Scraper.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/application.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/storage.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /configs/routes-4aug.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /configs/routes.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /configs/s3_config.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /controller/admin/post.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /controller/api/post.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /controllers/settings.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /getcpuutil.php-bakworking. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /helper.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /helper/EmailHelper.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /index.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /my_env/chakaash.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /my_env/newsletter.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /my_env/palash.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /mytest/astech_robot.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /partner/config/config.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:42:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/settings.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/settings.local. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /.circleci/configs/development.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/settings.prod. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/config/parameters.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/parameters.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /user/config/config.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /user/controllers/index.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/local.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /backend/config/settings.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /.travis.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /aws.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /sms.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:58:  ⚠ Unsupported metadata viewport is configured in metadata export in /main.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:58:  ⚠ Unsupported metadata viewport is configured in metadata export in /helpers/utility.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:58:  ⚠ Unsupported metadata viewport is configured in metadata export in /server/s3.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:59:  ⚠ Unsupported metadata viewport is configured in metadata export in /s3.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:59:  ⚠ Unsupported metadata viewport is configured in metadata export in /debug/default/view. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:59:  ⚠ Unsupported metadata viewport is configured in metadata export in /aws/credentials. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 22:58:59:  ⚠ Unsupported metadata viewport is configured in metadata export in /.aws/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:09:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /libs/js/iframe.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.yaml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.vscode/sftp.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /backup.tar.gz. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /dump.sql. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.git/HEAD. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /phpinfo.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /db/schema.rb. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.ssh/id_ed25519. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.ssh/id_rsa. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /secrets.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /settings.py. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.xml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /backup.zip. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.svn/wc.db. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /web.config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.aws/credentials. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /cloud-config.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /feed. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /etc/ssl/private/server.key. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /backup.sql. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /docker-compose.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.ssh/id_ecdsa. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /_vti_pvt/service.pwd. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /server.key. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /database_backup.sql. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /server-status. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.production. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /config/production.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /user_secrets.yml. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-10 23:31:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /database.sql. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:05:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /actuator/gateway/routes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:34:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:35:28:  ⚠ Unsupported metadata viewport is configured in metadata export in /wordpress/wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:35:43:  ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout-705a36460ae28efd.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:36:01:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:38:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /wordpress/wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 01:56:33:  ⚠ Unsupported metadata viewport is configured in metadata export in /admin/config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 02:09:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /sdk. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 02:09:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /odinhttpcall1741658946. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 02:09:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /evox/about. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 02:09:07:  ⚠ Unsupported metadata viewport is configured in metadata export in /HNAP1. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 02:13:37:  ⚠ Unsupported metadata viewport is configured in metadata export in /Home/ProfileNews. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 02:48:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 03:47:48:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env.production. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 03:47:49:  ⚠ Unsupported metadata viewport is configured in metadata export in /user_backend/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 04:26:45:  ⚠ Unsupported metadata viewport is configured in metadata export in /owa/auth/logon.aspx. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 04:27:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /app-ads.txt. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 04:27:46:  ⚠ Unsupported metadata viewport is configured in metadata export in /config.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 04:33:20:  ⚠ Unsupported metadata viewport is configured in metadata export in /libs/js/iframe.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 05:27:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 05:41:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /autodiscover/autodiscover.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:20:  ⚠ Unsupported metadata viewport is configured in metadata export in /sandbox/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:20:  ⚠ Unsupported metadata viewport is configured in metadata export in /data/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /modules/api/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /modules/db/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /production/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /app/frontend/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /deploy/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /lib/js/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /lib/python/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 06:05:22:  ⚠ Unsupported metadata viewport is configured in metadata export in /scripts/.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:31:13:  ⚠ Unsupported metadata viewport is configured in metadata export in /login.html. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:31:13:  ⚠ Unsupported metadata viewport is configured in metadata export in /.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:38:27:  ⚠ Unsupported metadata viewport is configured in metadata export in /.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:14:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:14:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 17:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:15:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 17:40:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:15:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 17:40:15:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 17:40:15:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-11 17:40:15:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-11 17:40:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:53:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 17:40:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:53:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 17:40:53:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:40:53:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 17:40:53:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 17:40:53:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-11 17:40:53:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-11 17:41:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:41:05:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 17:41:08:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:41:08:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 17:44:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:11:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 17:44:11:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 17:44:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:11:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 17:44:11:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 17:44:11:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-11 17:44:11:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-11 17:44:13:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 17:44:13:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 17:45:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /app-ads.txt. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 18:03:01:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 18:05:51:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 18:24:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 18:30:32:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:08:22:  ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+2025-03-11 19:22:06:  ⚠ Unsupported metadata viewport is configured in metadata export in /.well-known/traffic-advice. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:22:18:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:22:18:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 19:22:26:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:22:26:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 19:23:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:44:19:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:44:19:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 19:44:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:44:21:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 19:50:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /.git/config. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 19:57:41:  ⚠ Unsupported metadata viewport is configured in metadata export in /libs/js/iframe.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 20:08:55:  ⚠ Unsupported metadata viewport is configured in metadata export in /cdn-cgi/trace/cdn-cgi/trace. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 20:36:54:  ⚠ Unsupported metadata viewport is configured in metadata export in /.env. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 20:42:36:  ⚠ Unsupported metadata viewport is configured in metadata export in /wordpress/wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 20:45:11:  ⚠ Unsupported metadata viewport is configured in metadata export in /wordpress/wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 20:45:30:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 20:45:35:  ⚠ Unsupported metadata viewport is configured in metadata export in /wp-admin/setup-config.php. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:18:17:  ⚠ Unsupported metadata viewport is configured in metadata export in /app-ads.txt. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:22:21:  ⚠ Unsupported metadata viewport is configured in metadata export in /helpdesk/WebObjects/Helpdesk.woa. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:46:02:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:46:02:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 21:46:15:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:46:15:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 21:46:35:  ⚠ Unsupported metadata viewport is configured in metadata export in /images/about-hero.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:46:35:  ⨯ The requested resource isn't a valid image for /images/about-hero.jpg received text/html; charset=utf-8
+2025-03-11 21:47:42:  ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+2025-03-11 21:47:56:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:47:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:47:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:47:57:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 21:47:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:47:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:47:57:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 21:47:57:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:47:57:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 21:47:57:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 21:47:57:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-11 21:47:57:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-11 21:48:27:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:48:27:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:48:27:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 21:48:27:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:48:27:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:48:27:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 21:48:27:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/global-bank.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:48:28:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/yazilim-co.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:48:28:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 21:48:28:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 21:48:28:  ⨯ The requested resource isn't a valid image for /logos/global-bank.png received text/html; charset=utf-8
+2025-03-11 21:48:28:  ⨯ The requested resource isn't a valid image for /logos/yazilim-co.png received text/html; charset=utf-8
+2025-03-11 21:50:30:  ⚠ Unsupported metadata viewport is configured in metadata export in /axis2/services/listServices. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:51:37:  ⚠ Unsupported metadata viewport is configured in metadata export in /hizmetler/ev-. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:51:38:  ⚠ Unsupported metadata viewport is configured in metadata export in /hizmetler. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:51:40:  ⚠ Unsupported metadata viewport is configured in metadata export in /hakk. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:51:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /hakkimi. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:52:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:52:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:52:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:52:05:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 21:52:05:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:52:06:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 21:52:06:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 21:52:06:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 21:53:29:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:29:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:29:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:29:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 21:53:29:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:29:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 21:53:29:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 21:53:29:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 21:53:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:34:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:34:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 21:53:34:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 21:53:34:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 21:53:34:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8
+2025-03-11 21:53:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/tech-istanbul.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/finans-plus.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/media-group.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:44:  ⚠ Unsupported metadata viewport is configured in metadata export in /logos/lojistik-as.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2025-03-11 21:53:44:  ⨯ The requested resource isn't a valid image for /logos/tech-istanbul.png received text/html; charset=utf-8
+2025-03-11 21:53:44:  ⨯ The requested resource isn't a valid image for /logos/finans-plus.png received text/html; charset=utf-8
+2025-03-11 21:53:44:  ⨯ The requested resource isn't a valid image for /logos/media-group.png received text/html; charset=utf-8
+2025-03-11 21:53:44:  ⨯ The requested resource isn't a valid image for /logos/lojistik-as.png received text/html; charset=utf-8

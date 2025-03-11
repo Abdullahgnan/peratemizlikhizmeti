@@ -23,7 +23,7 @@ export function SiteHeader() {
             aria-label="Ana Sayfa"
           >
             <Image 
-              src="/logo.svg" 
+              src="/logo3.png" 
               alt="PeraHizmet Logo"
               width={36}
               height={36}

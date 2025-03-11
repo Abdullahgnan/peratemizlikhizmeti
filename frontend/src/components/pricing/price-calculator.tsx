@@ -77,11 +77,16 @@ export function PriceCalculator() {
     }
   }
 
-  const basePrice = 1500
   const calculatePrice = () => {
-    let total = basePrice
-    // Saat başına fiyat artışı
-    total += (parseInt(hours) - 4) * 200
+    // Seçilen saate göre temel fiyatı belirle
+    let total = 0
+    const selectedHourPrice = hourlyPrices.find(h => h.hours === hours)
+    if (selectedHourPrice) {
+      total = parseInt(selectedHourPrice.price)
+    } else {
+      total = 1250 // Varsayılan değer
+    }
+    
     // Personel sayısına göre artış
     total *= workers
     
